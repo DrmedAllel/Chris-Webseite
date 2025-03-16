@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a href="/about">About</a>
+                        <a href="about">About</a>
                     </li>
                     <li>
                         <a href="../index.html">Home</a>
