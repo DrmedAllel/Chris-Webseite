@@ -1,3 +1,11 @@
+#header-video {
+    position: absolute;
+    height: 20%;
+    width: 800px;
+    top: 5%;
+    left: 0;
+}
+
 /* Pulsierender Aufnahmepunkt */
 .reddot {
     position: absolute;
@@ -63,3 +71,5 @@
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: auto;
 }
+
+

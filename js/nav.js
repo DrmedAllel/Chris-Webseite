@@ -22,13 +22,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a href="../about">About</a>
+                    </li>
+                    <li>
                         <a href="../index.html">Home</a>
                     </li>
-                    <li>
+                    <li class="hidden">
                         <a href="../commercial">Commercial</a>
-                    </li>
-                    <li>
-                        <a href="../about">About</a>
                     </li>
                 </ul>
             </div>
