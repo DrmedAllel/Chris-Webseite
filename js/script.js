@@ -15,3 +15,24 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const timeElement = document.querySelector(".footer-time");
+    
+    function updateTime() {
+        const now = new Date();
+        const hours = now.getHours().toString().padStart(2, '0');
+        const minutes = now.getMinutes().toString().padStart(2, '0');
+        const seconds = now.getSeconds().toString().padStart(2, '0');
+        
+        // Format like a movie camera timecode: HH:MM:SS
+        timeElement.textContent = `${hours}:${minutes}:${seconds}`;
+    }
+
+    // Update immediately and then every second
+    if (timeElement) {
+        updateTime();
+        setInterval(updateTime, 1000);
+    }
+});

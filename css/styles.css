@@ -50,3 +50,16 @@
     height: 24px;
     vertical-align: middle;
 }
+
+
+
+/* Time on website */
+.footer-time {
+    font-size: 2em;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: auto;
+}
