@@ -1,0 +1,50 @@
+/* Pulsierender Aufnahmepunkt */
+.reddot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+    box-shadow: 0 0 0 rgba(255, 0, 0, 0.4);
+    animation: pulse 2s infinite;
+}
+  
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+        opacity: 1;
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+        opacity: 0.7;
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+        opacity: 1;
+    }
+}
+
+
+/* Spenden-Buttons Styling */
+.paypal-btn {
+    margin-right: 10px;
+    background-color: #ffc439;
+    border-color: #ffc439;
+    transition: box-shadow 0.3s ease;
+}
+
+.bank-transfer-btn {
+    transition: box-shadow 0.3s ease;
+}
+
+.paypal-btn:hover, .bank-transfer-btn:hover {
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.paypal-logo {
+    height: 24px;
+    vertical-align: middle;
+}
