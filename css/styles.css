@@ -37,6 +37,8 @@
 }
 
 .bank-transfer-btn {
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
     transition: box-shadow 0.3s ease;
 }
 
