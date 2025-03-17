@@ -202,70 +202,74 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         </div>
 
+        </br></br>
+
         <div class="container">
             <div class="row">
-            <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
-                <div id="imageCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#imageCarousel" data-slide-to="1"></li>
-                    <li data-target="#imageCarousel" data-slide-to="2"></li>
-                    <li data-target="#imageCarousel" data-slide-to="3"></li>
-                    <li data-target="#imageCarousel" data-slide-to="4"></li>
-                    <li data-target="#imageCarousel" data-slide-to="5"></li>
-                    <li data-target="#imageCarousel" data-slide-to="6"></li>
-                    <li data-target="#imageCarousel" data-slide-to="7"></li>
-                </ol>
+                <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
+                    <div>
+                        <p>${language === 'de' ? `Ausschnitt meiner Arbeiten` : `Excerpt of my work`}</p>
+                        <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#imageCarousel" data-slide-to="1"></li>
+                                <li data-target="#imageCarousel" data-slide-to="2"></li>
+                                <li data-target="#imageCarousel" data-slide-to="3"></li>
+                                <li data-target="#imageCarousel" data-slide-to="4"></li>
+                                <li data-target="#imageCarousel" data-slide-to="5"></li>
+                                <li data-target="#imageCarousel" data-slide-to="6"></li>
+                            </ol>
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                            <img src="../images/carousel/photo1.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                            <img src="../images/carousel/photo2.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                            <img src="../images/carousel/photo3.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                            <img src="../images/carousel/photo4.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                            <img src="../images/carousel/photo5.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                            <img src="../images/carousel/photo6.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                            <img src="../images/carousel/photo7.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
+                                        <img src="../images/carousel/photo1.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
+                                        <img src="../images/carousel/photo2.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
+                                        <img src="../images/carousel/photo3.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
+                                        <img src="../images/carousel/photo4.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
+                                        <img src="../images/carousel/photo5.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
+                                        <img src="../images/carousel/photo6.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
+                                        <img src="../images/carousel/photo7.png" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#imageCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#imageCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#imageCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#imageCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-                </div>
-            </div>
             <div class="col-md-6 col-sm-12">
                 <p style="font-size: 15pt;">
                 ${language === 'de' ? `
