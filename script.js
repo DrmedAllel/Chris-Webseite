@@ -21,3 +21,5 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+const language = localStorage.getItem('preferredLanguage') || 'en';
