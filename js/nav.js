@@ -27,9 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li>
                         <a href="about">About</a>
                     </li>
-                    <li>
-                        <a href="../index.html">Home</a>
-                    </li>
                     <li class="hidden">
                         <a href="../commercial">Commercial</a>
                     </li>
