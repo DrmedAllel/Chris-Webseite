@@ -64,7 +64,7 @@ window.addEventListener("load", function () {
                         `: `
                         The goal is within reach. After years of hard work, I was accepted to one of the most prestigious film schools in the world in Los Angeles. There is only one obstacle. You can help me with that.</br></br>`}
                     </p>
-                    <a href="fundraiser" class="" style="text-decoration: underline;">${ language === 'de' ? 'Mehr' : 'More'}</a>
+                    <a href="https://chris-gruber.com/fundraiser/" class="" style="text-decoration: underline;">${ language === 'de' ? 'Mehr' : 'More'}</a>
                 </div>
             </div>
         </div>
