@@ -100,7 +100,7 @@ window.addEventListener("load", function () {
                 </div>
                 <p class="col-lg-12 text-center">
                     <!-- Content for the about section would go here --><br>
-                    ${ language === 'de' ? 'Hallo, ich bin Chris Gruber und ich mache seit über sieben Jahren nichts anderes, als Filme zu drehen. Mein großer Traum ist es, als erfolgreicher Kameramann großartige, mitreißende und innovative Geschichten mit den richtigen Bildern auf die Leinwände dieser Welt zu bringen.' : 'Hi, ich bin Chris Gruber und ich mache seit über sieben Jahren nichts anderes, als Filme zu drehen. Mein großer Traum ist es, als erfolgreicher Kameramann großartige, mitreißende und innovative Geschichten mit den richtigen Bildern auf die Leinwände dieser Welt zu bringen.'}
+                    ${ language === 'de' ? 'Hallo, ich bin Chris Gruber und ich mache seit über sieben Jahren nichts anderes, als Filme zu drehen. Mein großer Traum ist es, als erfolgreicher Kameramann großartige, mitreißende und innovative Geschichten mit den richtigen Bildern auf die Leinwände dieser Welt zu bringen.' : 'Hi, I am Chris Gruber and I have been doing nothing but making movies for over seven years. My big dream is to bring great, exciting and innovative stories to the screens of this world with the right images as a successful cameraman.'}
                 </p>
             </div>
             <div class="row">
