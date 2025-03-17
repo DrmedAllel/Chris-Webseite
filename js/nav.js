@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="/Chris-Webseite/index.html">CG <span class="navbar-brand2">Director of Photography</span></a>
+            <a class="navbar-brand" href="https://chris-gruber.com/">CG <span class="navbar-brand2">Director of Photography</span></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
             <a href="#page-top"></a>
             </li>
             <li>
-            <a href="fundraiser">fundraiser</a>
+            <a href="https://chris-gruber.com/fundraiser/">fundraiser</a>
             </li>
             <li>
-            <a href="about">About</a>
+            <a href="https://chris-gruber.com/about/">About</a>
             </li>
             <li class="hidden">
             <a href="../commercial">Commercial</a>
