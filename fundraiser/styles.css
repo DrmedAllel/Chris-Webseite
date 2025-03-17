@@ -1,0 +1,22 @@
+/* Spenden-Buttons Styling */
+.paypal-btn {
+    margin-right: 10px;
+    background-color: #ffc439;
+    border-color: #ffc439;
+    transition: box-shadow 0.3s ease;
+}
+
+.bank-transfer-btn {
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+    transition: box-shadow 0.3s ease;
+}
+
+.paypal-btn:hover, .bank-transfer-btn:hover {
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.paypal-logo {
+    height: 24px;
+    vertical-align: middle;
+}

@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a href="fundraiser">fundraiser</a>
+                    </li>
+                    <li>
                         <a href="about">About</a>
                     </li>
                     <li>
