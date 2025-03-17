@@ -205,7 +205,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     </p>
                 </div>
                 <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
-                    <img src="../images/personal/Alumni_Anerkennung.png" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
+                    <img src="${language === 'de' ? '../images/AFI_ALUMNI_DE.jpg' : '../images/AFI_ALUMNI_EN.jpg'}" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
                 </div>
             </div>
         </div>
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
-                        <img src="${language === 'de' ? '../images/AFI_ALUMNI_DE.jpg' : '../images/AFI_ALUMNI_EN.jpg'}" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
+                        <img src="../images/Spenden.png" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
                     </div>
                 </div>
             </div>
