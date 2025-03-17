@@ -63,11 +63,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const language = localStorage.getItem('preferredLanguage') || 'en';
 
     html = `
-    
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-    </nav>
-
     <!-- Header -->
     <header>
         <div class="container">
