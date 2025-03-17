@@ -299,7 +299,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <h2 class="font2" style="font-weight:700; margin-bottom: 20px">${language === 'de' ? 'Ich freue mich über jede Unterstützung!' : 'I appreciate every support!'}</h2>
                             </div>
                         </div>
-                        <a href="https://www.paypal.me/chrisgruber169" target="_blank" class="paypal-btn font2">PayPal: chris.gruber@gmail.com</a>
+                        <a href="" target="_blank" class="paypal-btn font2">PayPal: chris.gruber@gmail.com</a>
                         </br></br>
                         <a class="font2 bank-transfer-btn">
                             ${language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
