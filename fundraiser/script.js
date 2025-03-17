@@ -105,28 +105,22 @@ document.addEventListener("DOMContentLoaded", function() {
                     durfte ich für diese Projekte drei Jahre in Folge den Preis für die Beste Kamera entgegennehmen. Für mich eine große Ehre – und eine
                     Bestätigung. Ich kann etwas, das muss ich
                     verfolgen, dachte ich mir.</br></br>
-                    Nach meinem Abitur zog ich deswegen nach
-                    Hamburg und arbeitete als freischaffender Kameraassistent bei verschiedensten Projekten
-                    (meinen ersten Job dort hatte ich schon, bevor ich überhaupt hingezogen bin). Ich wollte
-                    mehr lernen, an größeren Sets sein und noch
-                    härter arbeiten, auch um mir meinen Lebensunterhalt zu verdienen.</br></br>
                     ` : `
                     Hi, I'm Chris Gruber and I've been doing nothing but making movies for over seven years. My big dream is to bring great, captivating, and innovative stories to the screens of the world with the right images.</br></br>
                     Together with friends, I started making our own low-budget short films in the Stuttgart area, determining the visual language myself as a cameraman.</br>
                     At the Jugendfilmpreis Baden-Württemberg, I was able to accept the award for Best Camera for these projects three years in a row. A great honor for me - and a confirmation. I can do something, I thought to myself, I have to pursue that.</br></br>
-                    After graduating from high school, I moved to Hamburg and worked as a freelance camera assistant on various projects (I already had my first job there before I even moved there). I wanted to learn more, be on bigger sets, and work even harder, also to earn a living.</br></br>
                     `}
                     </p>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="row" style="margin: 0;">
                         <div class="col-md-6 col-sm-6 col-xs-6" style="padding: 0;">
-                            <div style="position: relative; width: 100%; padding-top: 177.33%;">
+                            <div style="position: relative; width: 100%; padding-top: 130%;">
                                 <img src="../images/personal/Chris_Kamera.JPG" alt="Chris mit Kamera" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6" style="padding: 0;">
-                            <div style="position: relative; width: 100%; padding-top: 177.33%;">
+                            <div style="position: relative; width: 100%; padding-top: 130%;">
                                 <img src="../images/personal/Filmschau 2024.jpg" alt="Chris mit Preis" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                             </div>
                         </div>
@@ -134,8 +128,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             </div>  
         </div>
-
-        </br></br></br>
 
         <div class="container">
             <div class="row">
@@ -145,8 +137,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <p style="font-size: 15pt;"
+                    <p style="font-size: 15pt;">
                     ${language === 'de' ? `
+                    Nach meinem Abitur zog ich deswegen nach
+                    Hamburg und arbeitete als freischaffender Kameraassistent bei verschiedensten Projekten
+                    (meinen ersten Job dort hatte ich schon, bevor ich überhaupt hingezogen bin). Ich wollte
+                    mehr lernen, an größeren Sets sein und noch
+                    härter arbeiten, auch um mir meinen Lebensunterhalt zu verdienen.</br></br>
                     2023, nach über 130 Filmproduktionen, bewarb ich mich an der Filmakademie Baden‑Württemberg, an jener Universität, an der
                     ich das Filmemachen lieben lernte. Ich wurde
                     abgelehnt. Ehrlich gesagt würde ich lügen,
@@ -157,44 +154,44 @@ document.addEventListener("DOMContentLoaded", function() {
                     wäre die ganze Arbeit umsonst gewesen.
                     Aber Aufgeben war keine Option. Nun hieß
                     es, Lücken füllen und meine Schwächen auszumerzen.</br></br>
-                    Nur um für einen Moment zu träumen, bewarb ich mich letztes Jahr am American Film
-                    Institute in Los Angeles.
-                    Dort haben ein paar der wichtigsten Filmschaffenden unserer Zeit studiert. Absolventen erschufen Filme wie Inception, Schindlers
-                    Liste, Inglorious Bastards, Django Unchained,
-                    Jurassic Park, Saving Private Ryan, Blue Velvet,
-                    The Tree of Life, Star Wars: The Last Jedi und
-                    etliche weitere.
                     ` : `
+                    </br>After graduating from high school, I moved to Hamburg and worked as a freelance camera assistant on various projects (I already had my first job there before I even moved there). I wanted to learn more, be on bigger sets, and work even harder, also to earn a living.</br></br>
                     In 2023, after over 130 film productions, I applied to the Filmakademie Baden-Württemberg, the university where I learned to love filmmaking. I was rejected. Honestly, I would be lying if I said it didn't hit me. When you work towards something for five years and don't make it, it forces you to reflect. What was it, what weaknesses do I have? It felt like all the work had been in vain. But giving up was not an option. Now it was time to fill in the gaps and correct my weaknesses.</br></br>
-                    Just to dream for a moment, I applied last year to the American Film Institute in Los Angeles.
-                    Some of the most important filmmakers of our time studied there. Graduates created films like Inception, Schindler's List, Inglorious Bastards, Django Unchained, Jurassic Park, Saving Private Ryan, Blue Velvet, The Tree of Life, Star Wars: The Last Jedi, and many more.
                     `}
                     </p>
                 </div>
             </div>
         </div>
 
-        </br></br></br>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <p style="font-size: 15pt;">
                     ${language === 'de' ? `
+                    Nur um für einen Moment zu träumen, bewarb ich mich letztes Jahr am American Film
+                    Institute in Los Angeles.
+                    Dort haben ein paar der wichtigsten Filmschaffenden unserer Zeit studiert. Absolventen erschufen Filme wie Inception, Schindlers
+                    Liste, Inglorious Bastards, Django Unchained,
+                    Jurassic Park, Saving Private Ryan, Blue Velvet,
+                    The Tree of Life, Star Wars: The Last Jedi und
+                    etliche weitere.</br></br>
                     Diesen März kam dann die Rückmeldung.
                     Wieder rechnete ich mit einer Absage. Ich öffnete die Mail und traute meinen Augen nicht.</br></br>
                     Das AFI bot mir einen Platz an.
                     Als Teil der Cinematography Class of 2027
                     habe ich nun das große Privileg, nach Los
                     Angeles zu ziehen und meinen Traum zu
-                    verwirklichen.</br></br>
+                    verwirklichen.</br>
                     Angefangen in Ludwigsburg und Stuttgart
                     habe ich mich von ganz unten hochgearbeitet, um an diesen Punkt zu gelangen. Ohne
                     Umwege.
                     ` : `
+                    Just to dream for a moment, I applied last year to the American Film Institute in Los Angeles.
+                    Some of the most important filmmakers of our time studied there. Graduates created films like Inception, Schindler's List, Inglorious Bastards, Django Unchained, Jurassic Park, Saving Private Ryan, Blue Velvet, The Tree of Life, Star Wars: The Last Jedi, and many more.</br></br>
                     Then in March, the feedback came.
                     Again, I expected a rejection. I opened the email and couldn't believe my eyes.</br></br>
                     The AFI offered me a place.
-                    As part of the Cinematography Class of 2027, I now have the great privilege of moving to Los Angeles and realizing my dream.</br></br>
+                    As part of the Cinematography Class of 2027, I now have the great privilege of moving to Los Angeles and realizing my dream.</br>
                     Starting in Ludwigsburg and Stuttgart, I worked my way up from the bottom to get to this point. Without detours.
                     `}
                     </p>
@@ -204,8 +201,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             </div>
         </div>
-
-        </br></br></br>
 
         <div class="container">
             <div class="row">
@@ -273,37 +268,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
             <div class="col-md-6 col-sm-12">
                 <p style="font-size: 15pt;">
-                    ${language === 'de' ? `
-                    Ich freue mich unfassbar und bin all den Menschen dankbar, die mich unterstützt haben.
-                    Insbesondere in meiner Heimat. Obwohl viele
-                    dort nichts mit Film am Hut haben, spüre ich
-                    immer wieder die Begeisterung für das Kino.
-                    Und für harte, ehrliche Arbeit.</br></br>
-                    Diese Arbeit will ich auch Übersee unermüdlich fortsetzen. Ich bin mir bewusst, woher
-                    ich komme und wohin ich gehen will.</br></br>
-                    Leider ist das Studium in Los Angeles mit hohen Kosten verbunden. Daher bitte ich Dich
-                    um Deine Hilfe. Jeder Betrag hilft mir, diese
-                    großartige Gelegenheit wahrzunehmen.</br></br>
-                    Ich sehe dieses Studium als einzigartige
-                    Chance, von den Besten meines Fachs zu
-                    lernen und außergewöhnliche Filme zu erschaffen!
-                    ` : `
-                    I am incredibly happy and grateful to all the people who have supported me. Especially in my home. Although many there have nothing to do with film, I feel the enthusiasm for cinema again and again. And for hard, honest work.</br></br>
-                    I want to continue this work tirelessly overseas. I am aware of where I come from and where I want to go.</br></br>
-                    Unfortunately, studying in Los Angeles is associated with high costs. Therefore, I ask for your help. Every amount helps me to take advantage of this great opportunity.</br></br>
-                    I see this study as a unique opportunity to learn from the best in my field and create extraordinary films!
-                    `}
-                </p>
-            </div>
-            </div>
-        </div>
-
-        </br></br></br>
-            <div class="container">
-                <div class="row">
-                <div class="col-lg-12">
-                    <p style="font-size: 15pt; padding-bottom: 100px;">
-                    ${language === 'de' ? `
+                ${language === 'de' ? `
                     Ich freue mich unfassbar und bin all den Menschen dankbar, die mich unterstützt haben. Insbesondere in meiner Heimat. Obwohl viele dort nichts mit Film am Hut haben, spüre ich immer wieder die Begeisterung für das Kino. Und für harte, ehrliche Arbeit. </br></br>
 
                     Diese Arbeit will ich auch Übersee unermüdlich fortsetzen. Ich bin mir bewusst, woher ich komme und wohin ich gehen will. </br></br>
@@ -316,10 +281,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     Unfortunately, studying in Los Angeles is associated with high costs and it is not possible for me to take out a loan. Therefore, I ask for your help. Every amount helps me to take advantage of this great opportunity. I see this study as a unique opportunity to learn from the best in my field and create extraordinary films.
                     `}
-                    </p>
-                </div>
-                </div>
+                </p>
             </div>
+            </div>
+        </div>
+
+        </br></br></br>
 
             <div class="container" style="padding-bottom: 100px;">
                 <div class="row">
