@@ -292,7 +292,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         </br></br></br>
 
-            <div class="container" style="padding-bottom: 100px;">
+            <div class="container" style="padding-bottom: 50px;">
                 <div class="row">
                     <div class="col-md-6 col-sm-12" style="padding-bottom: 40px; padding-left: 30px;">
                         <div class="row">
