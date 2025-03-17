@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             </div>
             </br></br></br></br></br></br></br>
-            <div class="row">
+            <div class="row" style="padding-bottom: 20px; display: flex; align-items: center; justify-content: center;">
                 <div class="col-md-6 col-sm-12">
                     <p style="font-size: 15pt;">
                     ${language === 'de' ? `
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
 
         <div class="container">
-            <div class="row">
+            <div class="row" style="padding-bottom: 20px; display: flex; align-items: center; justify-content: center;">
                 <div class="col-md-6 col-sm-12" style="padding-bottom: 40px;">
                     <div style="position: relative; width: 100%; padding-top: 75%;">
                     <img src="../images/personal/Chris_Lampe.JPG" alt="Chris mit Kamera" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
 
         <div class="container">
-            <div class="row">
+            <div class="row" style="padding-bottom: 20px; display: flex; align-items: center; justify-content: center;">
                 <div class="col-md-6 col-sm-12">
                     <p style="font-size: 15pt;">
                     ${language === 'de' ? `
@@ -205,7 +205,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </br></br>
 
         <div class="container">
-            <div class="row">
+            <div class="row" style="padding-bottom: 20px; display: flex; align-items: center; justify-content: center;">
                 <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
                     <div>
                         <p>${language === 'de' ? `Ausschnitt meiner Arbeiten` : `Excerpt of my work`}</p>
@@ -290,10 +290,9 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         </div>
 
-        </br></br></br>
 
             <div class="container" style="padding-bottom: 50px;">
-                <div class="row">
+                <div class="row" style="padding-bottom: 20px; display: flex; align-items: center; justify-content: center;">
                     <div class="col-md-6 col-sm-12" style="padding-bottom: 40px; padding-left: 30px;">
                         <div class="row">
                             <div class="col-lg-12">
