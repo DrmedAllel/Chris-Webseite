@@ -67,10 +67,10 @@ document.addEventListener("DOMContentLoaded", function() {
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-md-9 col-sm-12">
                     <div class="intro-text text-left">
                     <br>
-                    <h2 class="text-left">Fundraiser</h2>
+                    <h2 class="text-left" style="font-size: 18pt; opacity:0.6;">Fundraiser</h2>
                     <span class="name text-left">${language === 'de' ? '"Schick den Jungen nach Hollywood!"' : '"Send the boy to Hollywood!"'}</span>
                     <br>
                     <p style="font-size: 20pt;">${language === 'de' ? 'Das Ziel ist zum Greifen nah. Nach jahrelanger harter Arbeit wurde ich in Los Angeles an einer der renommiertesten Filmschulen der Welt angenommen. Es gibt nur ein Hindernis. Dabei kannst Du mir helfen.' : 'The goal is within reach. After years of hard work, I was accepted to a prestigious film school in Los Angeles. There is only one obstacle. You can help me with that.'}</p>
@@ -94,14 +94,14 @@ document.addEventListener("DOMContentLoaded", function() {
                     <p style="font-size: 15pt;">
                     ${language === 'de' ? `
                     Hi, ich bin Chris Gruber und ich mache seit über sieben Jahren nichts anderes, als Filme
-                    zu drehen. Mein großer Traum ist es, als erfolgreicher Kameramann großartige, mitreißende und innovative Geschichten mit den
+                    zu drehen.<span style="font-weight: bold;"> Mein großer Traum</span> ist es, als erfolgreicher Kameramann großartige, mitreißende und innovative Geschichten mit den
                     richtigen Bildern auf die Leinwände dieser
                     Welt zu bringen.</br></br>
                     Mit Freunden zusammen begann ich, eigene
                     Low Budget‑Kurzfilme im Raum Stuttgart zu
                     drehen und dabei selbst als Kameramann die
                     Bildsprache zu bestimmen.</br>
-                    Beim Jugendfilmpreis Baden‑Württemberg
+                    Beim <span style="font-weight: bold;">Jugendfilmpreis Baden‑Württemberg</span>
                     durfte ich für diese Projekte drei Jahre in Folge den Preis für die Beste Kamera entgegennehmen. Für mich eine große Ehre – und eine
                     Bestätigung. Ich kann etwas, das muss ich
                     verfolgen, dachte ich mir.</br></br>
@@ -144,13 +144,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     (meinen ersten Job dort hatte ich schon, bevor ich überhaupt hingezogen bin). Ich wollte
                     mehr lernen, an größeren Sets sein und noch
                     härter arbeiten, auch um mir meinen Lebensunterhalt zu verdienen.</br></br>
-                    2023, nach über 130 Filmproduktionen, bewarb ich mich an der Filmakademie Baden‑Württemberg, an jener Universität, an der
+                    2023, nach <span style="font-weight: bold;">über 130 Filmproduktionen</span>, bewarb ich mich an der Filmakademie Baden‑Württemberg, an jener Universität, an der
                     ich das Filmemachen lieben lernte. Ich wurde
                     abgelehnt. Ehrlich gesagt würde ich lügen,
                     wenn ich sage, dass es mich nicht getroffen
                     hat. Wenn man auf etwas fünf Jahre lang hinarbeitet und es nicht schafft, zwingt es einen
-                    zu reflektieren. Woran es gelegen hat, welche
-                    Schwächen ich habe? Es fühlte sich so an, als
+                    zu reflektieren. Woran es gelegen hat, <span style="font-weight: bold;">welche
+                    Schwächen ich habe?</span> Es fühlte sich so an, als
                     wäre die ganze Arbeit umsonst gewesen.
                     Aber Aufgeben war keine Option. Nun hieß
                     es, Lücken füllen und meine Schwächen auszumerzen.</br></br>
@@ -168,8 +168,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="col-md-6 col-sm-12">
                     <p style="font-size: 15pt;">
                     ${language === 'de' ? `
-                    Nur um für einen Moment zu träumen, bewarb ich mich letztes Jahr am American Film
-                    Institute in Los Angeles.
+                    <span style="font-weight: bold;">Nur um für einen Moment zu träumen</span>, bewarb ich mich letztes Jahr am <span style="font-weight: bold;">American Film
+                    Institute in Los Angeles</span>.
                     Dort haben ein paar der wichtigsten Filmschaffenden unserer Zeit studiert. Absolventen erschufen Filme wie Inception, Schindlers
                     Liste, Inglorious Bastards, Django Unchained,
                     Jurassic Park, Saving Private Ryan, Blue Velvet,
@@ -177,13 +177,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     etliche weitere.</br></br>
                     Diesen März kam dann die Rückmeldung.
                     Wieder rechnete ich mit einer Absage. Ich öffnete die Mail und traute meinen Augen nicht.</br></br>
-                    Das AFI bot mir einen Platz an.
-                    Als Teil der Cinematography Class of 2027
+                    <span style="font-weight: bold;">Das AFI bot mir einen Platz an.</span>
+                    <span style="font-weight: bold;">Als Teil der Cinematography Class of 2027
                     habe ich nun das große Privileg, nach Los
                     Angeles zu ziehen und meinen Traum zu
-                    verwirklichen.</br>
+                    verwirklichen.</span></br>
                     Angefangen in Ludwigsburg und Stuttgart
-                    habe ich mich von ganz unten hochgearbeitet, um an diesen Punkt zu gelangen. Ohne
+                    habe ich mich <span style="font-weight: bold;">von ganz unten hochgearbeitet</span>, um an diesen Punkt zu gelangen. Ohne
                     Umwege.
                     ` : `
                     Just to dream for a moment, I applied last year to the American Film Institute in Los Angeles.
@@ -273,11 +273,11 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="col-md-6 col-sm-12">
                 <p style="font-size: 15pt;">
                 ${language === 'de' ? `
-                    Ich freue mich unfassbar und bin all den Menschen dankbar, die mich unterstützt haben. Insbesondere in meiner Heimat. Obwohl viele dort nichts mit Film am Hut haben, spüre ich immer wieder die Begeisterung für das Kino. Und für harte, ehrliche Arbeit. </br></br>
+                    Ich freue mich unfassbar und bin all den Menschen <span style="font-weight: bold;">dankbar</span>, die mich unterstützt haben. Insbesondere in meiner Heimat. Obwohl viele dort nichts mit Film am Hut haben, spüre ich immer wieder die Begeisterung für das Kino. Und für harte, ehrliche Arbeit. </br></br>
 
-                    Diese Arbeit will ich auch Übersee unermüdlich fortsetzen. Ich bin mir bewusst, woher ich komme und wohin ich gehen will. </br></br>
+                    Diese Arbeit will ich auch Übersee unermüdlich fortsetzen. <span style="font-weight: bold;">Ich bin mir bewusst, woher ich komme und wohin ich gehen will.</span> </br></br>
 
-                    Leider ist das Studium in Los Angeles mit hohen Kosten verbunden und es ist mir nicht möglich einen Kredit aufzunehmen. Daher bitte ich Dich um Deine Hilfe. Jeder Betrag hilft mir, diese großartige Gelegenheit wahrzunehmen. Ich sehe dieses Studium als einzigartige Chance, von den Besten meines Fachs zu lernen und außergewöhnliche  Filme zu erschaffen.</br></br>
+                    Leider ist das Studium in Los Angeles mit hohen Kosten verbunden und es ist mir nicht möglich einen Kredit aufzunehmen. Daher bitte ich Dich um Deine Hilfe. Jeder Betrag hilft mir, diese großartige Gelegenheit wahrzunehmen. <span style="font-weight: bold;">Ich sehe dieses Studium als einzigartige Chance, von den Besten meines Fachs zu lernen und außergewöhnliche  Filme zu erschaffen.</span></br></br>
                     ` : `
                     I am incredibly happy and grateful to all the people who have supported me. Especially in my home. Although many there have nothing to do with film, I feel the enthusiasm for cinema again and again. And for hard, honest work. </br></br>
 
@@ -294,33 +294,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
             <div class="container" style="padding-bottom: 100px;">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12" style="padding-bottom: 40px;">
+                    <div class="col-md-6 col-sm-12" style="padding-bottom: 40px; padding-left: 30px;">
                         <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <h2>${language === 'de' ? 'Vielen Dank für Deine Unterstützung!' : 'Thank you for your support!'}</h2>
-                                <hr class="star-primary">
+                            <div class="col-lg-12">
+                                <h2 class="font2" style="font-weight:700; margin-bottom: 20px">${language === 'de' ? 'Ich freue mich über jede Unterstützung!' : 'I appreciate every support!'}</h2>
                             </div>
                         </div>
-                        <div class="row text-center">
-                            <a href="https://www.paypal.me/chrisgruber169" target="_blank" class="btn btn-lg paypal-btn">
-                                <img src="../images/paypal_logo.png" alt="Donate via PayPal" class="paypal-logo">
-                            </a>
-                            <a class="btn btn-lg bank-transfer-btn">
-                                ${language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
-                            </a>
-                        </div>
+                        <a href="https://www.paypal.me/chrisgruber169" target="_blank" class="paypal-btn font2">PayPal: chris.gruber@gmail.com</a>
+                        </br></br>
+                        <a class="font2 bank-transfer-btn">
+                            ${language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
+                        </a>
+                        <hr class="star-primary">
                     </div>
                     <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
-                        <img src="../images/Spenden.png" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
+                        <img src="../images/Spenden.png" alt="Spenden Ziel" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
                     </div>
                 </div>
             </div>
 
             <div class="container">
-                <div class="col-lg-12 text-center">
-                    <h2>Showreel</h2>
-                    <hr class="star-primary">
-                </div>
+                <h2 class="font2" style="font-size: 18pt">Showreel</h2>
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="embed-responsive" style="padding-bottom: 42%;">
