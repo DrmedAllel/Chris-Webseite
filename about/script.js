@@ -57,3 +57,100 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+window.addEventListener("load", function () {
+    const language = localStorage.getItem('preferredLanguage') || 'en';
+    html = `
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <br>
+                        <span class="name">About me</span>
+                        <span class="skills">${ language === 'de' ? 'Meine Geschichte' : 'My Journey'}</span>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="embed-responsive" style="padding-bottom: 42%;">
+                        <iframe class="embed-responsive-item" src="../videos/Cinematography Reel.m4v" allowfullscreen controls="false"></iframe>
+                    </div>
+                </div>
+            </div>
+        </br></br></br></br></br></br></br>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>${ language === 'de' ? 'Meine Geschichte' : 'My Journey'}</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <img src="../images/personal/Profil.JPG" class="img-responsive img-centered" alt="Chris Gruber" style="max-width: 60%; margin: 0 auto 30px auto;">
+                </div>
+                <p class="col-lg-12 text-center">
+                    <!-- Content for the about section would go here --><br>
+                    ${ language === 'de' ? 'Hallo, ich bin Chris Gruber und ich mache seit über sieben Jahren nichts anderes, als Filme zu drehen. Mein großer Traum ist es, als erfolgreicher Kameramann großartige, mitreißende und innovative Geschichten mit den richtigen Bildern auf die Leinwände dieser Welt zu bringen.' : 'Hi, ich bin Chris Gruber und ich mache seit über sieben Jahren nichts anderes, als Filme zu drehen. Mein großer Traum ist es, als erfolgreicher Kameramann großartige, mitreißende und innovative Geschichten mit den richtigen Bildern auf die Leinwände dieser Welt zu bringen.'}
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>${ language === 'de' ? 'Unterstütze mein Studium' : 'Support my studies'}</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row text-center">
+                <a href="https://www.paypal.me/chrisgruber169" target="_blank" class="btn btn-lg paypal-btn">
+                    <img src="../images/paypal_logo.png" alt="Donate via PayPal" class="paypal-logo">
+                </a>
+                <a class="btn btn-lg bank-transfer-btn">
+                    ${ language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+
+
+
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <br>
+                    <a href="https://www.instagram.com/_chris.gruber_?igsh=em1rMmdhZm1jNHdv"><img src="../images/insta.png" class="img-responsive img-centered insta" alt="Instagramm" width="50" height="50"></a>
+                    <br>
+                    <br>
+                    <div class="col-lg-12 text-center">Copyright Christian Gruber</div>
+                    <div class="col-lg-12 text-center">Made by <a href="https://claudiuslaur.de" target="_blank">Claudius Laur</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-time"></div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+    `
+
+
+    document.body.insertAdjacentHTML("beforeend", html);
+});

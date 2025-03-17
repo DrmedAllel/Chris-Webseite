@@ -335,7 +335,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <img src="../images/paypal_logo.png" alt="Donate via PayPal" class="paypal-logo">
                             </a>
                             <a class="btn btn-lg bank-transfer-btn">
-                                ${language === 'de' ? 'Überweisung' : 'Bank Transfer'}
+                                ${language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
                             </a>
                         </div>
                     </div>
