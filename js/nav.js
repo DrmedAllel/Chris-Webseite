@@ -118,7 +118,10 @@ document.addEventListener('DOMContentLoaded', function() {
         languageSwitch.addEventListener('change', function() {
             const lang = this.checked ? 'de' : 'en';
             localStorage.setItem('preferredLanguage', lang);
+            // First update the button state then reload the page after a short delay
+            setTimeout(function() {
             location.reload();
+            }, 100);
         });
 
         if (!localStorage.getItem('preferredLanguage')) {
