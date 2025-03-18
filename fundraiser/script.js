@@ -1,40 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const iban = "DE 53 6045 0050 1116 2910 01"; // Replace with your actual IBAN
-    const bankBtn = document.querySelector(".bank-transfer-btn");
-
-    if (bankBtn) {
-        bankBtn.addEventListener("click", function (e) {
-            e.preventDefault();
-            navigator.clipboard.writeText(iban)
-                .then(function () {
-                    alert("IBAN copied to clipboard! You will now be redirected to my bank information page.");
-                    window.location.href = "../bank";
-                })
-                .catch(function (err) {
-                    alert("Failed to copy IBAN: " + err);
-                });
-        });
-    }
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    // Select all links that should show an alert before redirecting
-    const paypalBtn = document.querySelector(".paypal-btn");
-    if (paypalBtn) {
-        paypalBtn.addEventListener("click", function (e) {
-            e.preventDefault(); // Prevent the default link behavior
-            
-            // Show alert
-            alert("Vielen Dank für deine Unterstützung! Du wirst jetzt zu PayPal weitergeleitet. Bitte denke daran, das Geld an Freunde und Familie zu senden, um Gebühren zu vermeiden.");
-            
-            // Redirect after alert is dismissed
-            window.location.href = this.href;
-        });
-    }
-});
-
-
-document.addEventListener("DOMContentLoaded", function () {
     // Get all iframe elements with video
     const videoIframes = document.querySelectorAll("iframe[src$='.m4v']");
     
@@ -326,9 +290,9 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <h2 class="font2" style="font-weight:700; margin-bottom: 20px">${language === 'de' ? 'Ich freue mich über jede Unterstützung!' : 'I appreciate every support!'}</h2>
                             </div>
                         </div>
-                        <a href="" target="_blank" class="paypal-btn font2">PayPal: chris.gruber@gmail.com</a>
+                        <a href="https://www.paypal.me/chrisgruber169" target="_blank" class="paypal-btn font2">PayPal: chris.gruber@gmail.com</a>
                         </br></br>
-                        <a class="font2 bank-transfer-btn">
+                        <a class="font2 bank-transfer-btn" style="cursor: pointer;">
                             ${language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
                         </a>
                         <hr class="star-primary">
@@ -381,4 +345,55 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     document.body.insertAdjacentHTML("beforeend", html);
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const language = localStorage.getItem('preferredLanguage') || 'en';
+    const iban = "DE 53 6045 0050 1116 2910 01"; // Replace with your actual IBAN
+    const bankBtn = document.querySelector(".bank-transfer-btn");
+
+    if (bankBtn) {
+        bankBtn.addEventListener("click", function (e) {
+            e.preventDefault();
+            navigator.clipboard.writeText(iban)
+                .then(function () {
+                    let alert_message;
+                    if (language === 'de') {
+                        alert_message = "IBAN kopiert. Du wirst jetzt zu meinen Bankdaten weitergeleitet.";
+                    } else {
+                        alert_message = "IBAN copied. You will now be redirected to my bank details.";
+                    }
+                    alert(alert_message);
+                    window.open("https://chris-gruber.com/bank", '_blank');
+                })
+                .catch(function (err) {
+                    alert("Failed to copy IBAN: " + err);
+                });
+        });
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const language = localStorage.getItem('preferredLanguage') || 'en';
+    // Select all links that should show an alert before redirecting
+    const paypalBtn = document.querySelector(".paypal-btn");
+    if (paypalBtn) {
+        console.log("Paypal button found");
+        paypalBtn.addEventListener("click", function (e) {
+            e.preventDefault(); // Prevent the default link behavior
+            let alert_message;
+            if (language === 'de') {
+                alert_message = "Vielen Dank für deine Unterstützung! Du wirst jetzt zu PayPal weitergeleitet. Bitte denke daran, das Geld an Freunde und Familie zu senden, um Gebühren zu vermeiden.";
+            } else {
+                alert_message = "Thank you for your support! You will now be redirected to PayPal. Please remember to send the money to friends and family to avoid fees.";
+            }
+
+            // Show alert
+            alert(alert_message);
+            
+            // Redirect after alert is dismissed
+            window.open(this.href, '_blank');
+        });
+    }
 });
