@@ -82,7 +82,7 @@ window.addEventListener("load", function () {
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <img src="../images/personal/Chris_Kopfhörer.JPG" class="img-responsive img-centered" alt="Chris Gruber" style="max-width: 60%; margin: 0 auto 30px auto;">
+                    <img src="../images/personal/Chris_Kopfhörer.webp" class="img-responsive img-centered" alt="Chris Gruber" style="max-width: 60%; margin: 0 auto 30px auto;">
                 </div>
             </div>
         <p class="col-lg-12 text-center" style="font-size: 15pt; padding-bottom: 100px;">
