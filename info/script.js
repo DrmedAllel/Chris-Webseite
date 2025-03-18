@@ -175,7 +175,7 @@ window.addEventListener("load", function () {
                     <br>
                     <br>
                     <div class="col-lg-12 text-center">Copyright Christian Gruber</div>
-                    <div class="col-lg-12 text-center">Made by <a href="https://claudiuslaur.de" target="_blank">Claudius Laur</a></div>
+                    <div class="col-lg-12 text-center" style="color: #a3a3a3;">Made by <a href="https://claudiuslaur.de" target="_blank" style="color: #a3a3a3;">Claudius Laur</a></div>
                 </div>
             </div>
         </div>
