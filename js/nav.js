@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // First update the button state then reload the page after a short delay
             setTimeout(function() {
             location.reload();
-            }, 100);
+            }, 400);
         });
 
         if (!localStorage.getItem('preferredLanguage')) {
