@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
         const brand2 = document.querySelector('.navbar-brand2');
         if (brand2) {
-            if (window.scrollY > 400) {
+            if (window.scrollY > 200) {
                 brand2.style.color = 'black';
             } else {
                 brand2.style.color = '';
