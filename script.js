@@ -31,7 +31,7 @@ window.addEventListener("load", function () {
         <!-- Video placed as a background element -->
         <div class="video-background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; opacity: 0.3;">
             <div class="embed-responsive" style="padding-bottom: 42%; height: 100%;">
-                <video class="embed-responsive-item" src="videos/Cinematography Reel.webm" loading="eager" autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
+                <video class="embed-responsive-item" src="videos/Cinematography Reel.mp4" loading="eager" autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
             </div>
         </div>
         <!-- Header text placed above the video -->
