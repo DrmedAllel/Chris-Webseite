@@ -148,14 +148,14 @@ window.addEventListener("load", function () {
     
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-
-
-
-        </div>
+        <div class="footer-above"></div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
+                    <br>
+                    <a href="https://www.instagram.com/_chris.gruber_?igsh=em1rMmdhZm1jNHdv"><img src="../images/insta.png" class="img-responsive img-centered insta" alt="Instagramm" width="25" height="25"></a>
+                    <br>
+                    <br>
                     <div class="col-lg-12 text-center">Copyright Christian Gruber</div>
                     <div class="col-lg-12 text-center">Made by <a href="https://claudiuslaur.de" target="_blank">Claudius Laur</a></div>
                 </div>

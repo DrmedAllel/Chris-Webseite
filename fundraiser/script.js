@@ -324,7 +324,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="container">
                 <div class="row">
                     <br>
-                    <a href="https://www.instagram.com/_chris.gruber_?igsh=em1rMmdhZm1jNHdv"><img src="../images/insta.png" class="img-responsive img-centered insta" alt="Instagramm" width="50" height="50"></a>
+                    <a href="https://www.instagram.com/_chris.gruber_?igsh=em1rMmdhZm1jNHdv"><img src="../images/insta.png" class="img-responsive img-centered insta" alt="Instagramm" width="25" height="25"></a>
                     <br>
                     <br>
                     <div class="col-lg-12 text-center">Copyright Christian Gruber</div>
