@@ -21,7 +21,7 @@
     vertical-align: middle;
 }
 
-p, h1, h2, .name {
+p, h1, h2, .name, li {
     padding-left: 10px;
     padding-right: 10px;
     font-family:'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;

@@ -85,7 +85,7 @@ window.addEventListener("load", function () {
                     <img src="../images/personal/Chris_Kopfhörer.JPG" class="img-responsive img-centered" alt="Chris Gruber" style="max-width: 60%; margin: 0 auto 30px auto;">
                 </div>
             </div>
-        <p class="col-lg-12 text-center" style="font-size: 15pt;">
+        <p class="col-lg-12 text-center" style="font-size: 15pt; padding-bottom: 100px;">
         <!-- Content for the about section would go here --><br>
         ${ language === 'de' ? `
             Chris Gruber ist ein Kameramann, dessen Weg ins Filmemachen alles andere als gewöhnlich ist.
@@ -96,7 +96,7 @@ window.addEventListener("load", function () {
 
             Mit einem vielfältigen Hintergrund, der Erfahrungen im Theater, auf Reisen und eine tiefgreifende
             persönliche Entwicklung umfasst, nähert sich Chris der Cinematografie mit einem besonderen
-            Fokus auf Zusammenarbeit, Sinnhaftigkeit und emotionaler Resonanz.Er ist überzeugt, dass es
+            Fokus auf Zusammenarbeit, Sinnhaftigkeit und emotionaler Resonanz. Er ist überzeugt, dass es
             vor allem darum geht, der Geschichte zu dienen, das Ego im Zaum zu halten und die tieferen
             Zusammenhänge jeder Szene zu verstehen.Chris’ Hingabe an sein Handwerk, kombiniert mit
             seiner Widerstandskraft und einzigartigen Perspektive, prägt seine Arbeit, in der jede
@@ -112,7 +112,7 @@ window.addEventListener("load", function () {
             `:`
             Chris Gruber is a cinematographer whose journey into filmmaking was anything but
             conventional. Having grown up surrounded by fantastical stories from his grandfather and
-            a passion for understanding human behavior. Although It wasn’t until he discovered
+            a passion for understanding human behavior. Although it wasn’t until he discovered
             filmmaking that he found his true calling—a path that blends his love for storytelling,
             psychology, technology, and art.</br></br>
 
@@ -131,25 +131,20 @@ window.addEventListener("load", function () {
             In addition to all these endeavors, Chris passionately pursues his job as fulltime idiot.
             `}      
         </p>
-    </section>
-
-    <section id="donate">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>${ language === 'de' ? 'Unterstütze mein Studium' : 'Support my studies'}</h2>
-                    </br>
-                    <p>
-                        ${ language === 'de' ? `Das Ziel ist zum Greifen nah. Nach jahrelanger harter Arbeit wurde ich in Los Angeles an einer der renommiertesten Filmschulen der Welt angenommen. Es gibt nur ein Hindernis. Dabei kannst Du mir helfen.</br></br>
-                        `: `
-                        The goal is within reach. After years of hard work, I was accepted to one of the most prestigious film schools in the world in Los Angeles. There is only one obstacle. You can help me with that.</br></br>`}
-                    </p>
-                    <a href="https://chris-gruber.com/fundraiser/" class="" style="text-decoration: underline;">${ language === 'de' ? 'Mehr' : 'More'}</a>
-                </div>
-            </div>
+        <div style="padding-bottom: 100px;">
+            <h2 class="font2 text-center">${ language === 'de' ? 'Preise' : 'Awards'}</h2></br>
+            <ul style="font-size: 15pt; text-align: center; list-style-position: inside;">
+                <li>${language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2024' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2024'}</li>
+                <li>${language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2023' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2023'}</li>
+                <li>${language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2022' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2022'}</li>
+            </ul>
+        </div>
+        <div class="kontakt text-center">
+            <p>${ language === 'de' ? 'Kontakt' : 'Contact'}</p>
+            <a href="mailto: gruberchristianfb@gmail.com">gruberchristianfb@gmail.com</a>
+            <a href="tel:+4915908138508">+4915908138508</a>
         </div>
     </section>
-
     
     <!-- Footer -->
     <footer class="text-center">
@@ -161,10 +156,6 @@ window.addEventListener("load", function () {
         <div class="footer-below">
             <div class="container">
                 <div class="row">
-                    <br>
-                    <a href="https://www.instagram.com/_chris.gruber_?igsh=em1rMmdhZm1jNHdv"><img src="../images/insta.png" class="img-responsive img-centered insta" alt="Instagramm" width="50" height="50"></a>
-                    <br>
-                    <br>
                     <div class="col-lg-12 text-center">Copyright Christian Gruber</div>
                     <div class="col-lg-12 text-center">Made by <a href="https://claudiuslaur.de" target="_blank">Claudius Laur</a></div>
                 </div>
