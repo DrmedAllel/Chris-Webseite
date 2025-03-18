@@ -81,41 +81,71 @@ window.addEventListener("load", function () {
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="embed-responsive" style="padding-bottom: 42%;">
-                        <iframe class="embed-responsive-item" src="../videos/Cinematography Reel.m4v" allowfullscreen controls="false"></iframe>
-                    </div>
-                </div>
-            </div>
-        </br></br></br></br></br></br></br>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>${ language === 'de' ? 'Meine Geschichte' : 'My Journey'}</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <img src="../images/personal/Profil.JPG" class="img-responsive img-centered" alt="Chris Gruber" style="max-width: 60%; margin: 0 auto 30px auto;">
+                    <img src="../images/personal/Chris_Kopfhörer.JPG" class="img-responsive img-centered" alt="Chris Gruber" style="max-width: 60%; margin: 0 auto 30px auto;">
                 </div>
-                <p class="col-lg-12 text-center">
-                    <!-- Content for the about section would go here --><br>
-                    ${ language === 'de' ? 'Hallo, ich bin Chris Gruber und ich mache seit über sieben Jahren nichts anderes, als Filme zu drehen. Mein großer Traum ist es, als erfolgreicher Kameramann großartige, mitreißende und innovative Geschichten mit den richtigen Bildern auf die Leinwände dieser Welt zu bringen.' : 'Hi, I am Chris Gruber and I have been doing nothing but making movies for over seven years. My big dream is to bring great, exciting and innovative stories to the screens of this world with the right images as a successful cameraman.'}
-                </p>
             </div>
+        <p class="col-lg-12 text-center" style="font-size: 15pt;">
+        <!-- Content for the about section would go here --><br>
+        ${ language === 'de' ? `
+            Chris Gruber ist ein Kameramann, dessen Weg ins Filmemachen alles andere als gewöhnlich ist.
+            Er wächst umgeben von fantastischen Geschichten seines Großvaters und einer Leidenschaft für
+            das Verständnis menschlichen Verhaltens auf. Doch erst als er das Filmemachen für sich
+            entdeckt, findet er seine wahre Berufung – einen Weg, der seine Liebe zum Geschichtenerzählen,
+            zur Psychologie, zur Technologie und zur Kunst miteinander verbindet.</br></br>
+
+            Mit einem vielfältigen Hintergrund, der Erfahrungen im Theater, auf Reisen und eine tiefgreifende
+            persönliche Entwicklung umfasst, nähert sich Chris der Cinematografie mit einem besonderen
+            Fokus auf Zusammenarbeit, Sinnhaftigkeit und emotionaler Resonanz.Er ist überzeugt, dass es
+            vor allem darum geht, der Geschichte zu dienen, das Ego im Zaum zu halten und die tieferen
+            Zusammenhänge jeder Szene zu verstehen.Chris’ Hingabe an sein Handwerk, kombiniert mit
+            seiner Widerstandskraft und einzigartigen Perspektive, prägt seine Arbeit, in der jede
+            Kamerentscheidung nicht nur absichtlich und bedacht ist, sondern von einer Leidenschaft für die
+            Kunst und die zugrunde liegende Philosophie der Filmproduktion getragen wird.</br></br>
+
+            Mit seinem Einsatz für stetiges Wachstum und der Überzeugung, dass jede Herausforderung eine
+            Chance ist, setzt Chris sein Handwerk leidenschaftlich ein, um Geschichten zu erzählen, die
+            wirklich von Bedeutung sind – stets mit Staunen und dem Traum, durch visuelles Storytelling zu
+            inspirieren.</br></br>
+
+            Neben all diesen Bestrebungen verfolgt Chris auch leidenschaftlich seinen Job als Vollzeit-Idiot.
+            `:`
+            Chris Gruber is a cinematographer whose journey into filmmaking was anything but
+            conventional. Having grown up surrounded by fantastical stories from his grandfather and
+            a passion for understanding human behavior. Although It wasn’t until he discovered
+            filmmaking that he found his true calling—a path that blends his love for storytelling,
+            psychology, technology, and art.</br></br>
+
+            Drawing from a diverse background that includes experiences in theater, travel, and a
+            deep personal journey, Chris approaches cinematography with a focus on collaboration,
+            purpose, and emotional resonance. He believes in serving the story above all, keeping
+            ego in check, and understanding the deeper narrative within each scene. Chris’s
+            commitment to his craft, combined with his resilience and unique perspective, shapes his
+            work, where every camera choice is intentional, thoughtful, and driven by a love for both
+            the art and the philosophy behind filmmaking.</br></br>
+
+            With a dedication to constant growth and a belief that every challenge is an opportunity,
+            Chris is passionate about using his craft to contribute to stories that matter, always with
+            wonder and a dream to inspire through visual storytelling.</br></br>
+
+            In addition to all these endeavors, Chris passionately pursues his job as fulltime idiot.
+            `}      
+        </p>
+    </section>
+
+    <section id="donate">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>${ language === 'de' ? 'Unterstütze mein Studium' : 'Support my studies'}</h2>
-                    <hr class="star-primary">
+                    </br>
+                    <p>
+                        ${ language === 'de' ? `Das Ziel ist zum Greifen nah. Nach jahrelanger harter Arbeit wurde ich in Los Angeles an einer der renommiertesten Filmschulen der Welt angenommen. Es gibt nur ein Hindernis. Dabei kannst Du mir helfen.</br></br>
+                        `: `
+                        The goal is within reach. After years of hard work, I was accepted to one of the most prestigious film schools in the world in Los Angeles. There is only one obstacle. You can help me with that.</br></br>`}
+                    </p>
+                    <a href="https://chris-gruber.com/fundraiser/" class="" style="text-decoration: underline;">${ language === 'de' ? 'Mehr' : 'More'}</a>
                 </div>
-            </div>
-            <div class="row text-center">
-                <a href="https://www.paypal.me/chrisgruber169" target="_blank" class="btn btn-lg paypal-btn">
-                    <img src="../images/paypal_logo.png" alt="Donate via PayPal" class="paypal-logo">
-                </a>
-                <a class="btn btn-lg bank-transfer-btn">
-                    ${ language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
-                </a>
             </div>
         </div>
     </section>

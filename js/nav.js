@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <a href="https://chris-gruber.com/fundraiser/">fundraiser</a>
             </li>
             <li>
-            <a href="https://chris-gruber.com/about/">About</a>
+            <a href="https://chris-gruber.com/info/">Info</a>
             </li>
             <li class="hidden">
             <a href="../commercial">Commercial</a>
