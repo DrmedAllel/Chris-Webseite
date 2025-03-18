@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6" style="padding: 0;">
                             <div style="position: relative; width: 100%; padding-top: 130%;">
-                                <img src="../images/personal/Filmschau 2024.webp" loading="eager" alt="Chris mit Preis" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                <img src="../images/personal/Filmschau 2024.jpg" loading="eager" alt="Chris mit Preis" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                             </div>
                         </div>
                     </div>
