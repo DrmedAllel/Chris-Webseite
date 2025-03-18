@@ -317,9 +317,8 @@ document.addEventListener("DOMContentLoaded", function() {
     </section>
 
     
-<!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above"></div>
+<footer class="text-center">
+    <div class="footer-above"></div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
@@ -346,12 +345,12 @@ document.addEventListener("DOMContentLoaded", function() {
                     <br>
                     <br>
                     <div class="col-lg-12 text-center">Copyright Christian Gruber</div>
-                    <div class="col-lg-12 text-center" style="color: #a3a3a3;">Made by <a href="https://claudiuslaur.de" target="_blank" style="color: #a3a3a3;">Claudius Laur</a></div>
+                    <div class="col-lg-12 text-center" style="color: #a3a3a3; font-size: 8pt;">Made by <a href="https://claudiuslaur.de" target="_blank" style="color: #a3a3a3;">Claudius Laur</a></div>
                 </div>
             </div>
         </div>
-        <div class="footer-time"></div>
-    </footer>
+    <div class="footer-time"></div>
+</footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
