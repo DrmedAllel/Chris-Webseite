@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="row" style="margin: 0;">
                         <div class="col-md-6 col-sm-6 col-xs-6" style="padding: 0;">
                             <div style="position: relative; width: 100%; padding-top: 130%;">
-                                <img src="../images/personal/Chris_Kamera.JPG" alt="Chris mit Kamera" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                <img src="../images/personal/Chris_Kamera.webp" alt="Chris mit Kamera" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6" style="padding: 0;">
