@@ -304,7 +304,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
 
             <div class="container">
-                <h2 class="font2" style="font-size: 18pt">Showreel</h2>
+                <h2 class="font2" style="font-size: 18pt; margin-bottom: 10px">Showreel</h2>
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="embed-responsive" style="padding-bottom: 42%;">
