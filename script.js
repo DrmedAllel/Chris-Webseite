@@ -26,9 +26,16 @@ window.addEventListener("load", function () {
     const language = localStorage.getItem('preferredLanguage') || 'en';
     html = `
 
-    <!-- Header -->
-    <header>
-        <div class="container">
+    <!-- Header with video background -->
+    <header style="position: relative; overflow: hidden;">
+        <!-- Video placed as a background element -->
+        <div class="video-background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; opacity: 0.3;">
+            <div class="embed-responsive" style="padding-bottom: 42%; height: 100%;">
+                <video class="embed-responsive-item" src="videos/Cinematography Reel.m4v" autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
+            </div>
+        </div>
+        <!-- Header text placed above the video -->
+        <div class="container" style="position: relative; z-index: 2;">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-text">
@@ -43,15 +50,6 @@ window.addEventListener("load", function () {
             </div>
         </div>
     </header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="embed-responsive" style="padding-bottom: 42%;">
-                    <iframe class="embed-responsive-item" src="videos/Cinematography Reel.m4v" allowfullscreen controls="false"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <section id="donate">
         <div class="container">
@@ -113,7 +111,7 @@ window.addEventListener("load", function () {
         </a>
     </div>
 
-    `
+    `;
 
 
     document.body.insertAdjacentHTML("beforeend", html);
