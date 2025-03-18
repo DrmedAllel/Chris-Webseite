@@ -213,37 +213,37 @@ document.addEventListener("DOMContentLoaded", function() {
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo1.webp" loading="lazy" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                        <img src="../images/carousel/photo1.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo2.webp" loading="lazy" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                        <img src="../images/carousel/photo2.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo3.webp" loading="lazy" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                        <img src="../images/carousel/photo3.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo4.webp" loading="lazy" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                        <img src="../images/carousel/photo4.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo5.webp" loading="lazy" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                        <img src="../images/carousel/photo5.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo6.webp" loading="lazy" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                        <img src="../images/carousel/photo6.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo7.webp" loading="lazy" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                        <img src="../images/carousel/photo7.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                                     </div>
                                 </div>
                             </div>
