@@ -198,6 +198,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
                 <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
                     <img src="${language === 'de' ? '../images/AFI_ALUMNI_DE.jpg' : '../images/AFI_ALUMNI_EN.jpg'}" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
+                    <img src="../images/Robert Richardson.jpeg" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
+                    <p style="font-size: 12pt;">${language === 'de' ? `Robert Richardson,AFI Alumni und dreifacher Kamera Oscar Gewinner` : `Robert Richardson, AFI Alumni and three time Best Cinematography Oscar Winner`}</p>
                 </div>
             </div>
         </div>
@@ -208,7 +210,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="row" style="padding-bottom: 20px; align-items: center; justify-content: center;">
                 <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
                     <div>
-                        <p>${language === 'de' ? `Ausschnitt meiner Arbeiten` : `Excerpt of my work`}</p>
+                        <p style="font-size: 15pt;">${language === 'de' ? `Ausschnitt meiner Arbeiten` : `Excerpt of my work`}</p>
                         <div id="imageCarousel" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
