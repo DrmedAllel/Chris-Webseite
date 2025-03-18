@@ -298,7 +298,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <hr class="star-primary">
                     </div>
                     <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
-                        <img src="../images/Spenden.png" alt="Spenden Ziel" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
+                        <img src="../images/Spenden.webp" alt="Spenden Ziel" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
                     </div>
                 </div>
             </div>
