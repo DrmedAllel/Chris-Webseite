@@ -120,6 +120,14 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('preferredLanguage', lang);
             location.reload();
         });
+
+        if (!localStorage.getItem('preferredLanguage')) {
+            // Check if browser language indicates a German locale
+            if (navigator.language && navigator.language.toLowerCase().startsWith('de')) {
+            localStorage.setItem('preferredLanguage', 'de');
+            languageSwitch.checked = true;
+            }
+        }
         
         // Also allow clicking on language labels
         const langLabels = navElement.querySelectorAll('.language-option');
