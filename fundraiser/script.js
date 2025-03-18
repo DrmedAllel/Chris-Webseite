@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="col-md-9 col-sm-12">
                     <div class="intro-text text-left">
                     <br>
-                    <h2 class="text-left" style="font-size: 18pt; color: #666;">Fundraiser</h2>
+                    <h2 class="text-left" style="font-size: 18pt;">Fundraiser</h2>
                     <span class="name text-left">${language === 'de' ? '"Schick den Jungen nach Hollywood!"' : '"Send the boy to Hollywood!"'}</span>
                     <br>
                     <p style="font-size: 20pt;">${language === 'de' ? 'Das Ziel ist zum Greifen nah. Nach jahrelanger harter Arbeit wurde ich in Los Angeles an einer der renommiertesten Filmschulen der Welt angenommen. Es gibt nur ein Hindernis. Dabei kannst Du mir helfen.' : 'The goal is within reach. After years of hard work, I was accepted to one of the most prestigious film schools in the world in Los Angeles. There is only one obstacle. You can help me with that.'}</p>
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
                     <img src="${language === 'de' ? '../images/AFI_ALUMNI_DE.jpg' : '../images/AFI_ALUMNI_EN.jpg'}" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
                     <img src="../images/Robert Richardson.jpeg" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
-                    <p style="font-size: 12pt; color: #666;">${language === 'de' ? `Robert Richardson,AFI Alumni und dreifacher Kamera Oscar Gewinner` : `Robert Richardson, AFI Alumni and three time Best Cinematography Oscar Winner`}</p>
+                    <p style="font-size: 12pt; color: #a3a3a3;">${language === 'de' ? `Robert Richardson,AFI Alumni und dreifacher Kamera Oscar Gewinner` : `Robert Richardson, AFI Alumni and three time Best Cinematography Oscar Winner`}</p>
                 </div>
             </div>
         </div>
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="row" style="padding-bottom: 20px; align-items: center; justify-content: center;">
                 <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
                     <div>
-                        <p style="font-size: 15pt; color: #666;">${language === 'de' ? `Ausschnitt meiner Arbeiten` : `Excerpt of my work`}</p>
+                        <p style="font-size: 15pt; color: #a3a3a3;">${language === 'de' ? `Ausschnitt meiner Arbeiten` : `Excerpt of my work`}</p>
                         <div id="imageCarousel" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
