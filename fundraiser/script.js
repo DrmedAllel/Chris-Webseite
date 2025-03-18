@@ -379,7 +379,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Select all links that should show an alert before redirecting
     const paypalBtn = document.querySelector(".paypal-btn");
     if (paypalBtn) {
-        console.log("Paypal button found");
         paypalBtn.addEventListener("click", function (e) {
             e.preventDefault(); // Prevent the default link behavior
             let alert_message;
