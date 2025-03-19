@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const language = localStorage.getItem('preferredLanguage') || 'en';
     // Get the nav element
     const navElement = document.querySelector('nav');
     
@@ -12,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="https://chris-gruber.com/">CG <span class="navbar-brand2">Director of Photography</span></a>
+            <a class="navbar-brand" href="https://chris-gruber.com/">CG <span class="navbar-brand2">${language === 'de' ? 'Kameramann' : 'Cinematographer'}</span></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

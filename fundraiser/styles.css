@@ -8,3 +8,18 @@ p, h1, h2, .name {
 .font2 {
     font-family:'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.paypal-btn {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 12rem; 
+    background-color: #F7CA3E !important; 
+    border: none !important;
+    transition: 0.25s;
+}
+
+.paypal-btn:hover {
+    transition: 0.25s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

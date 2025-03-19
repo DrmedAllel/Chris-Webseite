@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
 document.addEventListener("DOMContentLoaded", function() {
     const language = localStorage.getItem('preferredLanguage') || 'en';
 
@@ -37,7 +36,14 @@ document.addEventListener("DOMContentLoaded", function() {
                     <h2 class="text-left" style="font-size: 18pt;">Fundraiser</h2>
                     <span class="name text-left">${language === 'de' ? '"Schick den Jungen nach Hollywood!"' : '"Send the boy to Hollywood!"'}</span>
                     <br>
-                    <p style="font-size: 20pt;">${language === 'de' ? 'Das Ziel ist zum Greifen nah. Nach jahrelanger harter Arbeit wurde ich in Los Angeles an einer der renommiertesten Filmschulen der Welt angenommen. Es gibt nur ein Hindernis. Dabei kannst Du mir helfen.' : 'The goal is within reach. After years of hard work, I was accepted to one of the most prestigious film schools in the world in Los Angeles. There is only one obstacle. You can help me with that.'}</p>
+                    <p style="font-size: 20pt;">${language === 'de' ? `
+                        Das Ziel ist zum Greifen nah. Nach jahrelanger harter Arbeit wurde ich an einer der drei besten
+                        Filmschulen der Welt angenommen: dem American Film Institute im Herzen von Hollywood, Los
+                        Angeles.
+                        Jedes Jahr wagen tausende Menschen, sich bei dieser Talentschmiede zu bewerben - und ich
+                        darf jetzt als einziger Deutscher einen der 24 Studienplätze für Kamera einnehmen und diese
+                        riesige Chance wahrnehmen. Dabei kannst Du mir helfen.
+                    ` : 'The goal is within reach. After years of hard work, I was accepted to one of the most prestigious film schools in the world in Los Angeles. There is only one obstacle. You can help me with that.'}</p>
                 </div>
             </div>
         </div>
@@ -57,18 +63,17 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="col-md-6 col-sm-12">
                     <p style="font-size: 15pt;">
                     ${language === 'de' ? `
-                    Hi, ich bin Chris Gruber und ich mache seit über sieben Jahren nichts anderes, als Filme
-                    zu drehen.<span style="font-weight: bold;"> Mein großer Traum</span> ist es, als erfolgreicher Kameramann großartige, mitreißende und innovative Geschichten mit den
-                    richtigen Bildern auf die Leinwände dieser
-                    Welt zu bringen.</br></br>
-                    Mit Freunden zusammen begann ich, eigene
-                    Low Budget‑Kurzfilme im Raum Stuttgart zu
-                    drehen und dabei selbst als Kameramann die
-                    Bildsprache zu bestimmen.</br>
-                    Beim <span style="font-weight: bold;">Jugendfilmpreis Baden‑Württemberg</span>
-                    durfte ich für diese Projekte drei Jahre in Folge den Preis für die Beste Kamera entgegennehmen. Für mich eine große Ehre – und eine
-                    Bestätigung. Ich kann etwas, das muss ich
-                    verfolgen, dachte ich mir.</br></br>
+                    Hi, ich bin Chris Gruber und ich mache seit über sieben Jahren nichts anderes, als Filme zu
+                    drehen. <span style="font-weight: bold;">Mein großer Traum</span> ist es, als erfolgreicher Kameramann großartige, mitreißende und
+                    innovative Geschichten mit den richtigen Bildern auf die Leinwände dieser Welt zu bringen.</br></br>
+                    Mit 16 Jahren half ich das erste Mal bei einem studentischen Filmset der Filmakademie Baden-
+                    Württemberg mit. Sowohl die Arbeit als auch die Atmosphäre begeisterte mich so sehr, dass ich
+                    mich während meiner letzten beiden Schuljahre sogar ganze <span style="font-weight: bold;">drei Monate</span> beurlauben ließ, um
+                    keine Sekunde am Set zu verpassen. </br></br>
+                    Mit Freunden zusammen begann ich, eigene Low Budget-Kurzfilme im Raum Stuttgart zu drehen
+                    und dabei selbst als Kameramann die Bildsprache zu gestalten.
+                    Beim <span style="font-weight: bold;">Jugendfilmpreis Baden-Württemberg</span> wurde ich für diese Projekte in den letzten drei
+                    Jahren in Folge mit dem Preis für die Beste Kamera ausgezeichnet.
                     ` : `
                     Hi, I'm Chris Gruber and I've been doing nothing but making movies for over seven years. <span style="font-weight: bold;">My big
                     dream </span> as a successful cinematographer is to bring great, captivating and innovative stories to the
@@ -90,12 +95,12 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="row" style="margin: 0;">
                         <div class="col-md-6 col-sm-6 col-xs-6" style="padding: 0;">
                             <div style="position: relative; width: 100%; padding-top: 130%;">
-                                <img src="../images/personal/Chris_Kamera.webp" loading="eager" alt="Chris mit Kamera" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                <img src="../images/personal/Filmschau 2024.webp" loading="eager" alt="Chris mit Preis" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6" style="padding: 0;">
                             <div style="position: relative; width: 100%; padding-top: 130%;">
-                                <img src="../images/personal/Filmschau 2024.webp" loading="eager" alt="Chris mit Preis" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                                <img src="../images/personal/Chris_Kamera.webp" loading="eager" alt="Chris mit Kamera" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                             </div>
                         </div>
                     </div>
@@ -113,21 +118,23 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="col-md-6 col-sm-12">
                     <p style="font-size: 15pt;">
                     ${language === 'de' ? `
-                    Nach meinem Abitur zog ich deswegen nach
-                    Hamburg und arbeitete als freischaffender Kameraassistent bei verschiedensten Projekten
-                    (meinen ersten Job dort hatte ich schon, bevor ich überhaupt hingezogen bin). Ich wollte
-                    mehr lernen, an größeren Sets sein und noch
-                    härter arbeiten, auch um mir meinen Lebensunterhalt zu verdienen.</br></br>
-                    2023, nach <span style="font-weight: bold;">über 130 Filmproduktionen</span>, bewarb ich mich an der Filmakademie Baden‑Württemberg, an jener Universität, an der
-                    ich das Filmemachen lieben lernte. Ich wurde
-                    abgelehnt. Ehrlich gesagt würde ich lügen,
-                    wenn ich sage, dass es mich nicht getroffen
-                    hat. Wenn man auf etwas fünf Jahre lang hinarbeitet und es nicht schafft, zwingt es einen
-                    zu reflektieren. Woran es gelegen hat, <span style="font-weight: bold;">welche
-                    Schwächen ich habe?</span> Es fühlte sich so an, als
-                    wäre die ganze Arbeit umsonst gewesen.
-                    Aber Aufgeben war keine Option. Nun hieß
-                    es, Lücken füllen und meine Schwächen auszumerzen.</br></br>
+                    Nach meinem Abitur zog ich deswegen nach Hamburg und arbeitete als freischaﬀender
+                    Kameraassistent bei verschiedensten Projekten (meinen ersten Job dort hatte ich schon, bevor
+                    ich überhaupt hingezogen bin). Ich wollte mehr lernen, an größeren Sets sein und noch härter
+                    arbeiten, auch um mir meinen Lebensunterhalt zu verdienen.</br></br>
+
+                    In verschiedenen Ländern wie Frankreich, Kroatien oder der Schweiz arbeitete ich an <span style="font-weight: bold;">über 130
+                    Filmproduktionen</span> und knüpfte wertvolle Kontakte. Nach Jahren in der Filmwelt und all diesen
+                    Erfahrungen im Gepäck bewarb ich mich schließlich an der Filmakademie Baden-Württemberg.
+                    Also an jener Universität, an der ich das Filmemachen lieben lernte. Ich wurde abgelehnt. Ich
+                    würde lügen, wenn ich sage, dass es mich nicht getroﬀen hat. Wenn man auf etwas fünf Jahre
+                    lang hinarbeitet und es nicht schaﬀt, zwingt es einen zu reflektieren. Woran hat es gelegen?
+                    <span style="font-weight: bold;">Welche Schwächen habe ich?</span> Es fühlte sich so an, als wäre die ganze Arbeit umsonst gewesen.</br></br>
+
+                    Aber Aufgeben war keine Option. Nun hieß es, Lücken füllen und meine Schwächen auszumerzen,
+                    neue Erfahrungen zu sammeln.Ein paar Monate später stand ich an einem <span style="font-weight: bold;">Bollywood-Actionfilm</span>
+                    Set in Mumbai. Ich war plötzlich Teil einer riesen Crew, die über Nacht Häuser baute, und wilden
+                    Leoparden und Krokodilen trotzte.
                     ` : `
                     </br>
                     After graduating from high school, I moved to Hamburg and worked as a freelance camera
@@ -149,23 +156,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="col-md-6 col-sm-12">
                     <p style="font-size: 15pt;">
                     ${language === 'de' ? `
-                    <span style="font-weight: bold;">Nur um für einen Moment zu träumen</span>, bewarb ich mich letztes Jahr am <span style="font-weight: bold;">American Film
-                    Institute in Los Angeles</span>.
-                    Dort haben ein paar der wichtigsten Filmschaffenden unserer Zeit studiert. Absolventen erschufen Filme wie Inception, Schindlers
-                    Liste, Inglorious Bastards, Django Unchained,
-                    Jurassic Park, Saving Private Ryan, Blue Velvet,
-                    The Tree of Life, Star Wars: The Last Jedi und
-                    etliche weitere.</br></br>
-                    Diesen März kam dann die Rückmeldung.
-                    Wieder rechnete ich mit einer Absage. Ich öffnete die Mail und traute meinen Augen nicht.</br></br>
-                    <span style="font-weight: bold;">Das AFI bot mir einen Platz an.</span>
-                    <span style="font-weight: bold;">Als Teil der Cinematography Class of 2027
-                    habe ich nun das große Privileg, nach Los
-                    Angeles zu ziehen und meinen Traum zu
-                    verwirklichen.</span></br>
-                    Angefangen in Ludwigsburg und Stuttgart
-                    habe ich mich <span style="font-weight: bold;">von ganz unten hochgearbeitet</span>, um an diesen Punkt zu gelangen. Ohne
-                    Umwege.
+                    <span style="font-weight: bold;">Nur um für einen Moment zu träumen</span>, bewarb ich mich <span style="font-weight: bold;">am American Film Institute in Los
+                    Angeles.</span> Dort haben ein paar der wichtigsten Filmschaﬀenden unserer Zeit studiert. Der
+                    Hollywood Reporter listete das Institut in den letzten zehn Jahren stetig als als eine der drei
+                    besten Filmhochschulen der Welt. Absolventen erschufen Filme wie Inception, Schindlers Liste,
+                    Inglorious Bastards, Django Unchained, Jurassic Park, Saving Private Ryan, Blue Velvet, The Tree
+                    of Life, Star Wars: The Last Jedi und etliche weitere. </br></br>
+
+                    Diesen März kam dann die Rückmeldung. Wieder rechnete ich mit einer Absage. Ich öﬀnete die
+                    Mail und traute meinen Augen nicht. </br></br>
+
+                    <span style="font-weight: bold;">Das American Film Institute bot mir einen Platz an. Als Teil der Cinematography Class of
+                    2027 habe ich nun das große Privileg, nach Los Angeles zu ziehen und meinen Traum zu verwirklichen.</span></br></br>
+                    Angefangen in Ludwigsburg und Stuttgart, <span style="font-weight: bold;">als überarbeiteter unbezahlter Praktikant habe ich
+                    mich hochgearbeitet</span>, um an diesen Punkt zu gelangen. Ohne Abkürzungen.
                     ` : `
                     But giving up was not an option. Now it was time to fill in the gaps and eradicate my weaknesses.
                     <span style="font-weight: bold;">Just to dream for a moment</span>, I applied to the <span style="font-weight: bold;">American Film Institute in Los Angeles</span> last year.</br></br>
@@ -261,11 +265,19 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="col-md-6 col-sm-12">
                 <p style="font-size: 15pt;">
                 ${language === 'de' ? `
-                    Ich freue mich unfassbar und bin all den Menschen <span style="font-weight: bold;">dankbar</span>, die mich unterstützt haben. Insbesondere in meiner Heimat. Obwohl viele dort nichts mit Film am Hut haben, spüre ich immer wieder die Begeisterung für das Kino. Und für harte, ehrliche Arbeit. </br></br>
+                    Ich freue mich unfassbar und bin all den Menschen <span style="font-weight: bold;">dankbar</span>, die mich unterstützt haben.
+                    Insbesondere in meiner Heimat. Obwohl viele dort nichts mit Film am Hut haben, spüre ich in
+                    Baden-Württemberg immer die Begeisterung für harte Arbeit und das Kino. </br></br>
 
-                    Diese Arbeit will ich auch Übersee unermüdlich fortsetzen. <span style="font-weight: bold;">Ich bin mir bewusst, woher ich komme und wohin ich gehen will.</span> </br></br>
+                    Diese Arbeit will ich auch Übersee unermüdlich fortsetzen. <span style="font-weight: bold;">Ich bin mir bewusst, woher ich
+                    komme und wohin ich gehen will.</span> </br></br>
 
-                    Leider ist das Studium in Los Angeles mit hohen Kosten verbunden und es ist mir nicht möglich einen Kredit aufzunehmen. Daher bitte ich Dich um Deine Hilfe. Jeder Betrag hilft mir, diese großartige Gelegenheit wahrzunehmen. <span style="font-weight: bold;">Ich sehe dieses Studium als einzigartige Chance, von den Besten meines Fachs zu lernen und außergewöhnliche  Filme zu erschaffen.</span></br></br>
+                    Das Studium in Los Angeles mit hohen Kosten verbunden. Daher bitte ich Dich um Deine Hilfe.
+                    Wenn du mich unterstützen kannst und magst, würde ich mich über jeden Euro freuen. Wenn es
+                    für dich gerade nicht möglich ist mich finanziell zu unterstützen, würde es mir wahnsinnig helfen,
+                    wenn du diese Kampagne mit Freunden und Verwandte teilst. <span style="font-weight: bold;">Ich sehe dieses Studium als
+                    einzigartige Chance, von den Besten meines Fachs zu lernen und außergewöhnliche Filme,
+                    die das Publikum begeistern, zu erschaﬀen.</span>
                     ` : `
                     I am incredibly happy and <span style="font-weight: bold;">grateful</span> to all the people who have supported me. Especially in my
                     home state. Although many people there have nothing to do with film, I can always feel the
@@ -290,11 +302,22 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <h2 class="font2" style="font-weight:700; margin-bottom: 20px">${language === 'de' ? 'Ich freue mich über jede Unterstützung!' : 'I appreciate every support!'}</h2>
                             </div>
                         </div>
-                        <a href="https://www.paypal.me/chrisgruber169" target="_blank" class="paypal-btn font2">PayPal: chris.gruber@gmail.com</a>
+                        <a class="btn btn-primary paypal-btn" href="https://www.paypal.me/chrisgruber169" role="button">
+                            <img src="../images/paypal.png" alt="Paypal" class="img-responsive" style="width: auto; height: auto; object-fit: contain;">
+                        </a>
                         </br></br>
                         <a class="font2 bank-transfer-btn" style="cursor: pointer;">
                             ${language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
                         </a>
+                        <div style="display: none;" class="bank-transfer-info">
+                            <p style="font-size: 10pt; padding: 0;">Bank Information</p>
+                            <div>
+                                <p style="font-size: 10pt; padding: 0;">Kreissparkasse Ludwigsburg:</p>
+                                <p style="font-size: 10pt; padding: 0;">Christian Gruber</p>
+                                <p style="font-size: 10pt; padding: 0;">IBAN DE 53 6045 0050 1116 2910 01</p>
+                                <p style="font-size: 10pt; padding: 0;">BIC: SOLADES1LBG</p>
+                            </div>
+                        </div>
                         <hr class="star-primary">
                     </div>
                     <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
@@ -304,7 +327,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
 
             <div class="container">
-                <h2 class="font2" style="font-size: 18pt; margin-bottom: 10px">Showreel</h2>
+                <h2 class="font2" style="font-size: 18pt; font-weight: 700; margin-bottom: 10px">Showreel</h2>
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="embed-responsive" style="padding-bottom: 42%;">
@@ -366,27 +389,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    const language = localStorage.getItem('preferredLanguage') || 'en';
-    const iban = "DE 53 6045 0050 1116 2910 01"; // Replace with your actual IBAN
     const bankBtn = document.querySelector(".bank-transfer-btn");
+    const bankInfo = document.querySelector(".bank-transfer-info");
 
-    if (bankBtn) {
+    if (bankBtn && bankInfo) {
         bankBtn.addEventListener("click", function (e) {
             e.preventDefault();
-            navigator.clipboard.writeText(iban)
-                .then(function () {
-                    let alert_message;
-                    if (language === 'de') {
-                        alert_message = "IBAN kopiert. Du wirst jetzt zu meinen Bankdaten weitergeleitet.";
-                    } else {
-                        alert_message = "IBAN copied. You will now be redirected to my bank details.";
-                    }
-                    alert(alert_message);
-                    window.open("https://chris-gruber.com/bank", '_blank');
-                })
-                .catch(function (err) {
-                    alert("Failed to copy IBAN: " + err);
-                });
+            // Toggle the display state of the bank-transfer-info element
+            if (bankInfo.style.display === "none" || bankInfo.style.display === "") {
+                bankInfo.style.display = "block";
+                bankBtn.style.display = "none";
+            } else {
+                bankInfo.style.display = "none";
+            }
         });
     }
 });
