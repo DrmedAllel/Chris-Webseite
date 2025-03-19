@@ -306,8 +306,9 @@ document.addEventListener("DOMContentLoaded", function() {
                             <img src="../images/PayPal.png" alt="Paypal" class="img-responsive" style="width: auto; height: auto; object-fit: contain;">
                         </a>
                         </br></br>
-                        <a class="font2 bank-transfer-btn" style="cursor: pointer;">
+                        <a class="font2 bank-transfer-btn" style="cursor: pointer; display: flex; flex-direction: row; align-items: center; gap: 10px;">
                             ${language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
+                            <svg style="height: 12pt; width: auto;"viewBox="0 0 1024 1024" fill="#707096" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#707096" stroke-width="6.144"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M478.312 644.16c24.38 26.901 64.507 26.538 88.507-0.89l270.57-309.222c7.758-8.867 6.86-22.344-2.008-30.103-8.866-7.759-22.344-6.86-30.103 2.007L534.71 615.173c-7.202 8.231-17.541 8.325-24.782 0.335L229.14 305.674c-7.912-8.73-21.403-9.394-30.133-1.482s-9.394 21.403-1.482 30.134l280.786 309.833z" fill=""></path></g></svg>
                         </a>
                         <div style="display: none;" class="bank-transfer-info">
                             <p style="font-size: 10pt; padding: 0;">${language === 'de' ? 'Bank Informationen:' : 'Bank Information:'}</p>
