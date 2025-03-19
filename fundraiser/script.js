@@ -297,26 +297,28 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="container" style="padding-bottom: 50px;">
                 <div class="row" style="padding-bottom: 20px; align-items: center; justify-content: center;">
                     <div class="col-md-6 col-sm-12" style="padding-bottom: 40px; padding-left: 30px;">
-                        <div class="row">
+                        <div class="row" style="padding-bottom: 20px;">
                             <div class="col-lg-12">
-                                <h2 class="font2" style="font-weight:700; margin-bottom: 20px">${language === 'de' ? 'Ich freue mich über jede Unterstützung!' : 'I appreciate every support!'}</h2>
+                                <h2 class="font2" style="font-weight:700; margin-bottom: 30px">${language === 'de' ? 'Ich freue mich über jede Unterstützung!' : 'I appreciate every support!'}</h2>
                             </div>
                         </div>
-                        <a class="btn btn-primary paypal-btn" href="https://www.paypal.me/chrisgruber169" role="button">
-                            <img src="../images/PayPal.png" alt="Paypal" class="img-responsive" style="width: auto; height: auto; object-fit: contain;">
-                        </a>
-                        </br></br>
-                        <a class="font2 bank-transfer-btn" style="cursor: pointer; display: flex; flex-direction: row; align-items: center; gap: 10px;">
-                            ${language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
-                            <svg style="height: 12pt; width: auto;"viewBox="0 0 1024 1024" fill="#707096" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#707096" stroke-width="6.144"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M478.312 644.16c24.38 26.901 64.507 26.538 88.507-0.89l270.57-309.222c7.758-8.867 6.86-22.344-2.008-30.103-8.866-7.759-22.344-6.86-30.103 2.007L534.71 615.173c-7.202 8.231-17.541 8.325-24.782 0.335L229.14 305.674c-7.912-8.73-21.403-9.394-30.133-1.482s-9.394 21.403-1.482 30.134l280.786 309.833z" fill=""></path></g></svg>
-                        </a>
-                        <div style="display: none;" class="bank-transfer-info">
-                            <p style="font-size: 10pt; padding: 0;">${language === 'de' ? 'Bank Informationen:' : 'Bank Information:'}</p>
-                            <div>
-                                <p style="font-size: 10pt; padding: 0;">Kreissparkasse Ludwigsburg:</p>
-                                <p style="font-size: 10pt; padding: 0;">Christian Gruber</p>
-                                <p style="font-size: 10pt; padding: 0;">IBAN DE 53 6045 0050 1116 2910 01</p>
-                                <p style="font-size: 10pt; padding: 0;">BIC: SOLADES1LBG</p>
+                        <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 30px;">
+                            <a class="btn btn-primary paypal-btn" href="https://www.paypal.me/chrisgruber169" role="button">
+                                <img src="../images/PayPal.png" alt="Paypal" class="img-responsive" style="width: auto; height: auto; object-fit: contain;">
+                            </a>
+                            </br></br>
+                            <a class="font2 bank-transfer-btn" style="cursor: pointer; display: flex; flex-direction: row; align-items: center; gap: 10px;">
+                                ${language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
+                                <svg style="height: 12pt; width: auto;"viewBox="0 0 1024 1024" fill="#707096" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#707096" stroke-width="6.144"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M478.312 644.16c24.38 26.901 64.507 26.538 88.507-0.89l270.57-309.222c7.758-8.867 6.86-22.344-2.008-30.103-8.866-7.759-22.344-6.86-30.103 2.007L534.71 615.173c-7.202 8.231-17.541 8.325-24.782 0.335L229.14 305.674c-7.912-8.73-21.403-9.394-30.133-1.482s-9.394 21.403-1.482 30.134l280.786 309.833z" fill=""></path></g></svg>
+                            </a>
+                            <div style="display: none;" class="bank-transfer-info">
+                                <p style="font-size: 10pt; padding: 0;">${language === 'de' ? 'Bank Informationen:' : 'Bank Information:'}</p>
+                                <div>
+                                    <p style="font-size: 10pt; padding: 0;">Kreissparkasse Ludwigsburg:</p>
+                                    <p style="font-size: 10pt; padding: 0;">Christian Gruber</p>
+                                    <p style="font-size: 10pt; padding: 0;">IBAN DE 53 6045 0050 1116 2910 01</p>
+                                    <p style="font-size: 10pt; padding: 0;">BIC: SOLADES1LBG</p>
+                                </div>
                             </div>
                         </div>
                         <hr class="star-primary">
