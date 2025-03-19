@@ -43,7 +43,7 @@ window.addEventListener("load", function () {
                         <span class="name">Chris Gruber
                             <div class="reddot"></div>
                         </span>
-                        <span class="skills">Director of Photography</span>
+                        <span class="skills">${language === 'de' ? 'Kameramann' : 'Cinematographer'}</span>
                         <br>
                     </div>
                 </div>

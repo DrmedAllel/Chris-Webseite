@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="row" style="padding-bottom: 20px; align-items: center; justify-content: center;">
                 <div class="col-md-6 col-sm-12" style="padding-bottom: 40px;">
                     <div style="position: relative; width: 100%; padding-top: 75%;">
-                    <img src="../images/personal/Chris_Lampe.webp" alt="Chris mit Kamera" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                        <img src="../images/personal/Chris_Lampe.webp" alt="Chris mit Kamera" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
