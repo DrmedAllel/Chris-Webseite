@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <p style="font-size: 20pt;">${language === 'de' ? `
                         Das Ziel ist zum Greifen nah. Nach jahrelanger harter Arbeit wurde ich an einer der drei besten
                         Filmschulen der Welt angenommen: dem American Film Institute im Herzen von Hollywood, Los
-                        Angeles.
+                        Angeles. </br>
                         Jedes Jahr wagen tausende Menschen, sich bei dieser Talentschmiede zu bewerben - und ich
                         darf jetzt als einziger Deutscher einen der 24 Studienplätze für Kamera einnehmen und diese
                         riesige Chance wahrnehmen. Dabei kannst Du mir helfen.
