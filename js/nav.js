@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const language = localStorage.getItem('preferredLanguage') || 'en';
+    // Explizites Setzen des Standardwerts, wenn nichts im LocalStorage vorhanden ist
+    if (!localStorage.getItem('preferredLanguage')) {
+        localStorage.setItem('preferredLanguage', 'de');
+    }
+    const language = localStorage.getItem('preferredLanguage');
+    console.log('Preferred language:', language);
+
     // Get the nav element
     const navElement = document.querySelector('nav');
     
@@ -109,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Add event listener for the toggle switch
         const languageSwitch = document.getElementById('language-switch');
-        const currentLang = localStorage.getItem('preferredLanguage') || 'en';
+        const currentLang = localStorage.getItem('preferredLanguage') || 'de';
         
         // Set initial state
         if (currentLang === 'de') {
@@ -124,14 +130,6 @@ document.addEventListener('DOMContentLoaded', function() {
             location.reload();
             }, 400);
         });
-
-        if (!localStorage.getItem('preferredLanguage')) {
-            // Check if browser language indicates a German locale
-            if (navigator.language && navigator.language.toLowerCase().startsWith('de')) {
-            localStorage.setItem('preferredLanguage', 'de');
-            languageSwitch.checked = true;
-            }
-        }
         
         // Also allow clicking on language labels
         const langLabels = navElement.querySelectorAll('.language-option');

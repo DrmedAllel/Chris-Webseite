@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    const language = localStorage.getItem('preferredLanguage') || 'en';
+    const language = localStorage.getItem('preferredLanguage') || 'de';
 
     html = `
     <!-- Header -->
@@ -310,7 +310,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             ${language === 'de' ? 'Banküberweisung' : 'Bank Transfer'}
                         </a>
                         <div style="display: none;" class="bank-transfer-info">
-                            <p style="font-size: 10pt; padding: 0;">Bank Information</p>
+                            <p style="font-size: 10pt; padding: 0;">${language === 'de' ? 'Bank Informationen:' : 'Bank Information:'}</p>
                             <div>
                                 <p style="font-size: 10pt; padding: 0;">Kreissparkasse Ludwigsburg:</p>
                                 <p style="font-size: 10pt; padding: 0;">Christian Gruber</p>

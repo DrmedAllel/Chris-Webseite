@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 window.addEventListener("load", function () {
-    const language = localStorage.getItem('preferredLanguage') || 'en';
+    const language = localStorage.getItem('preferredLanguage') || 'de';
     html = `
 
     <!-- Header with video background -->
