@@ -303,7 +303,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             </div>
                         </div>
                         <a class="btn btn-primary paypal-btn" href="https://www.paypal.me/chrisgruber169" role="button">
-                            <img src="../images/paypal.png" alt="Paypal" class="img-responsive" style="width: auto; height: auto; object-fit: contain;">
+                            <img src="../images/PayPal.png" alt="Paypal" class="img-responsive" style="width: auto; height: auto; object-fit: contain;">
                         </a>
                         </br></br>
                         <a class="font2 bank-transfer-btn" style="cursor: pointer;">
