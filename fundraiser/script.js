@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="col-md-6 col-sm-12">
                     <p style="font-size: 15pt;">
                     ${language === 'de' ? `
-                    Nach meinem Abitur zog ich deswegen nach Hamburg und arbeitete als freischaﬀender
+                    Nach meinem Abitur zog ich deswegen nach Hamburg und arbeitete als freischaffender
                     Kameraassistent bei verschiedensten Projekten (meinen ersten Job dort hatte ich schon, bevor
                     ich überhaupt hingezogen bin). Ich wollte mehr lernen, an größeren Sets sein und noch härter
                     arbeiten, auch um mir meinen Lebensunterhalt zu verdienen.</br></br>
@@ -127,8 +127,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     Filmproduktionen</span> und knüpfte wertvolle Kontakte. Nach Jahren in der Filmwelt und all diesen
                     Erfahrungen im Gepäck bewarb ich mich schließlich an der Filmakademie Baden-Württemberg.
                     Also an jener Universität, an der ich das Filmemachen lieben lernte. Ich wurde abgelehnt. Ich
-                    würde lügen, wenn ich sage, dass es mich nicht getroﬀen hat. Wenn man auf etwas fünf Jahre
-                    lang hinarbeitet und es nicht schaﬀt, zwingt es einen zu reflektieren. Woran hat es gelegen?
+                    würde lügen, wenn ich sage, dass es mich nicht getroffen hat. Wenn man auf etwas fünf Jahre
+                    lang hinarbeitet und es nicht schafft, zwingt es einen zu reflektieren. Woran hat es gelegen?
                     <span style="font-weight: bold;">Welche Schwächen habe ich?</span> Es fühlte sich so an, als wäre die ganze Arbeit umsonst gewesen.</br></br>
 
                     Aber Aufgeben war keine Option. Nun hieß es, Lücken füllen und meine Schwächen auszumerzen,
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     more, be on bigger sets and work even harder, also to earn a living.</br></br>  
                     In 2023, after <span style="font-weight: bold;">over 130 film productions</span>, I applied to the Film academy Baden-Württemberg, the
                     university where I learned to love filmmaking. I was rejected. To be honest, I'd be lying if I said it
-                    didn't aﬀect me: when you work towards something for five years and you don't make it, it forces
+                    didn't affect me: when you work towards something for five years and you don't make it, it forces
                     you to reflect. What was the reason, <span style="font-weight: bold;">what weaknesses do I have?</span> It felt like all the work had been
                     for nothing.
                     `}
@@ -157,13 +157,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     <p style="font-size: 15pt;">
                     ${language === 'de' ? `
                     <span style="font-weight: bold;">Nur um für einen Moment zu träumen</span>, bewarb ich mich <span style="font-weight: bold;">am American Film Institute in Los
-                    Angeles.</span> Dort haben ein paar der wichtigsten Filmschaﬀenden unserer Zeit studiert. Der
+                    Angeles.</span> Dort haben ein paar der wichtigsten Filmschaffenden unserer Zeit studiert. Der
                     Hollywood Reporter listete das Institut in den letzten zehn Jahren stetig als als eine der drei
                     besten Filmhochschulen der Welt. Absolventen erschufen Filme wie Inception, Schindlers Liste,
                     Inglorious Bastards, Django Unchained, Jurassic Park, Saving Private Ryan, Blue Velvet, The Tree
                     of Life, Star Wars: The Last Jedi und etliche weitere. </br></br>
 
-                    Diesen März kam dann die Rückmeldung. Wieder rechnete ich mit einer Absage. Ich öﬀnete die
+                    Diesen März kam dann die Rückmeldung. Wieder rechnete ich mit einer Absage. Ich öffnete die
                     Mail und traute meinen Augen nicht. </br></br>
 
                     <span style="font-weight: bold;">Das American Film Institute bot mir einen Platz an. Als Teil der Cinematography Class of
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     Saving Private Ryan, Blue Velvet, The Tree of Life, Star Wars the Last Jedi and many more.</br></br>
 
                     Then this March came the reply. Again, I was expecting a rejection. I opened the email and
-                    couldn't believe my eyes. <span style="font-weight: bold;">The AFI was oﬀering me a seat.</span> <span style="font-weight: bold;">As part of the Cinematography Class of
+                    couldn't believe my eyes. <span style="font-weight: bold;">The AFI was offering me a seat.</span> <span style="font-weight: bold;">As part of the Cinematography Class of
                     2027, I now have the great privilege of moving to Los Angeles and realizing my dream.</span></br></br>
                     Starting in Ludwigsburg and Stuttgart, <span style="font-weight: bold;">I worked my way up from the bottom</span> to get to this point.
                     Without any shortcuts.
@@ -277,7 +277,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     für dich gerade nicht möglich ist mich finanziell zu unterstützen, würde es mir wahnsinnig helfen,
                     wenn du diese Kampagne mit Freunden und Verwandte teilst. <span style="font-weight: bold;">Ich sehe dieses Studium als
                     einzigartige Chance, von den Besten meines Fachs zu lernen und außergewöhnliche Filme,
-                    die das Publikum begeistern, zu erschaﬀen.</span>
+                    die das Publikum begeistern, zu erschaffen.</span>
                     ` : `
                     I am incredibly happy and <span style="font-weight: bold;">grateful</span> to all the people who have supported me. Especially in my
                     home state. Although many people there have nothing to do with film, I can always feel the
