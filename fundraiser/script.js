@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
                     <img src="${language === 'de' ? '../images/AFI_ALUMNI_DE.jpg' : '../images/AFI_ALUMNI_EN.jpg'}" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
                     <img src="../images/Robert Richardson.jpeg" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
-                    <p style="font-size: 12pt; color: #a3a3a3;">${language === 'de' ? `Robert Richardson, American Film Institute Alumni und dreifacher Kamera Oscar Gewinner` : `Robert Richardson, American Film Institute Alumni and three-time Oscar-winning cinematographer`}</p>
+                    <p style="font-size: 12pt; color: #a3a3a3; padding: 0;">${language === 'de' ? `Robert Richardson, American Film Institute Alumni und dreifacher Kamera Oscar Gewinner` : `Robert Richardson, American Film Institute Alumni and three-time Oscar-winning cinematographer`}</p>
                 </div>
             </div>
         </div>
