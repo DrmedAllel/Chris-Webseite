@@ -185,11 +185,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
         </br></br>
 
-        <div class="container">
-            <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
+        <div class="container" style="padding: 0;">
+            <div class="col-md-6 col-sm-12" style="padding: 0;padding-bottom: 20px;">
                 <img src="../images/Spenden.webp" alt="Spenden Ziel" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12" style="padding: 0;">
                 <p style="font-size: 15pt;">
                 ${language === 'de' ? `
                     Diese Arbeit will ich auch Übersee unermüdlich fortsetzen. <span style="font-weight: bold;">Ich bin mir bewusst, woher ich
@@ -216,7 +216,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     <span style="font-weight: bold;">I see this study as a unique chance to learn from the best in my field and create extraordinary films.</span>
                     `}
                 </p>
-            </div>
             </div>
         </div>
 
