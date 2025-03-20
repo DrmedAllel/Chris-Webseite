@@ -187,71 +187,9 @@ document.addEventListener("DOMContentLoaded", function() {
         </br></br>
 
         <div class="container">
-            <div class="row" style="padding-bottom: 20px; align-items: center; justify-content: center;">
-                <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
-                    <div>
-                        <p style="font-size: 15pt; color: #a3a3a3;">${language === 'de' ? `Ausschnitt meiner Arbeiten` : `Excerpt of my work`}</p>
-                        <div id="imageCarousel" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#imageCarousel" data-slide-to="1"></li>
-                                <li data-target="#imageCarousel" data-slide-to="2"></li>
-                                <li data-target="#imageCarousel" data-slide-to="3"></li>
-                                <li data-target="#imageCarousel" data-slide-to="4"></li>
-                                <li data-target="#imageCarousel" data-slide-to="5"></li>
-                                <li data-target="#imageCarousel" data-slide-to="6"></li>
-                            </ol>
-
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo1.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo2.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo3.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo4.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo5.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo6.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div style="position: relative; width: 100%; padding-top: 56.25%;">
-                                        <img src="../images/carousel/photo7.webp" alt="Alumni Anerkennung" class="img-responsive" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Controls -->
-                            <a class="left carousel-control" href="#imageCarousel" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#imageCarousel" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
+                <img src="../images/Spenden.webp" alt="Spenden Ziel" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
+            </div>
             <div class="col-md-6 col-sm-12">
                 <p style="font-size: 15pt;">
                 ${language === 'de' ? `
@@ -286,13 +224,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
             <div class="container" style="padding-bottom: 50px;">
                 <div class="row" style="padding-bottom: 20px; align-items: center; justify-content: center;">
-                    <div class="col-md-6 col-sm-12" style="padding-bottom: 40px; padding-left: 30px;">
-                        <div class="row" style="padding-bottom: 20px;">
+                    <div class="col-md-12 col-sm-12" style="padding-bottom: 40px; padding-left: 30px;">
+                        <div class="row text-center" style="padding-bottom: 20px;">
                             <div class="col-lg-12">
-                                <h2 class="font2" style="font-weight:700; margin-bottom: 30px">${language === 'de' ? 'Ich freue mich über jede Unterstützung!' : 'I appreciate every support!'}</h2>
+                                <h2 class="font2" style="font-weight:700; margin-bottom: 10px; margin-top: 50px">${language === 'de' ? 'Ich freue mich über jede Unterstützung!' : 'I appreciate every support!'}</h2>
                             </div>
                         </div>
-                        <div style="display: flex; flex-direction: row; align-items: center; gap: 30px;">
+                        <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 30px;">
                             <a class="btn btn-primary paypal-btn" href="https://www.paypal.me/chrisgruber169" role="button">
                                 <img src="../images/PayPal.png" alt="Paypal" class="img-responsive" style="width: auto; height: auto; object-fit: contain;">
                             </a>
@@ -312,7 +250,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             </div>
                         </div>
                         <hr class="star-primary">
-                        <div style="display: flex; justify-content: flex-start; align-items: center; gap: 20px;">
+                        <div style="display: flex; justify-content: flex-start; align-items: center; justify-content: center; gap: 20px;">
                             <h2 class="font2" style="font-weight: 700; padding-left: 0;">${language === 'de' ? 'Kontakt:' : 'Contact:'}</h2>
                             <a href="https://www.instagram.com/_chris.gruber_?igsh=em1rMmdhZm1jNHdv">
                                 <svg width="30px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -333,9 +271,6 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </svg>
                             </a>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
-                        <img src="../images/Spenden.webp" alt="Spenden Ziel" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
                     </div>
                 </div>
             </div>
