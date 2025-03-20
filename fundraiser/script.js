@@ -272,7 +272,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
             
             <div class="container" style="padding: 0;">
-                <h2 class="font2" style="font-size: 18pt; font-weight: 700; margin-bottom: 10px; padding: 0;">Showreel</h2>
+                <h2 class="font2" style="font-weight: 700; margin-bottom: 10px; padding: 0;">Showreel</h2>
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="embed-responsive" style="padding-bottom: 42%;">
