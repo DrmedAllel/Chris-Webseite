@@ -313,7 +313,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         </div>
                         <hr class="star-primary">
                         <div style="display: flex; justify-content: flex-start; align-items: center; gap: 20px;">
-                            <p class="font2" style="font-size: 20pt; padding-left: 0;">${language === 'de' ? 'Kontakt:' : 'Contact:'}</p>
+                            <h2 class="font2" style="font-weight: 700; padding-left: 0;">${language === 'de' ? 'Kontakt:' : 'Contact:'}</h2>
                             <a href="https://www.instagram.com/_chris.gruber_?igsh=em1rMmdhZm1jNHdv">
                                 <svg width="30px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#0F0F0F"/>
