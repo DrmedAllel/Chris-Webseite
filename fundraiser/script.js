@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <br>
                     <p style="font-size: 20pt;">${language === 'de' ? `
                         Das Ziel ist zum Greifen nah. Nach jahrelanger harter Arbeit wurde ich an einer <span style="font-weight: bold;">der besten
-                        Filmhochschulen der Welt</span> angenommen: dem American Film Institute im Herzen von Hollywood.</br>
+                        Filmhochschulen der Welt</span> angenommen: dem American Film Institute im Herzen von Hollywood.
                         Jedes Jahr wagen tausende Menschen, sich bei dieser Talentschmiede zu bewerben - und ich
                         darf jetzt als <span style="font-weight: bold;">einziger Deutscher</span> einen der 24 Studienplätze für Kamera einnehmen und diese
                         riesige Chance nutzen. Dabei kannst Du mir helfen.
@@ -118,11 +118,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     Beim <span style="font-weight: bold;">Jugendfilmpreis Baden-Württemberg</span> wurde ich für diese Projekte in den letzten drei
                     Jahren in Folge mit dem Preis für die Beste Kamera ausgezeichnet.</br></br>
 
-                    Nach meinem Abitur zog ich nach Hamburg und arbeitete als freischaﬀender Kameraassistent bei
-                    über <span style="font-weight: bold;">130 Filmproduktionen</span> in verschiedenen Ländern wie Frankreich, Indien und der Schweiz
-                    und knüpfte wertvolle Kontakte als freischaﬀender Kameraassistent zu arbeiten. <span style="font-weight: bold;">Ich wollte mehr
-                    lernen</span>, an größeren Sets sein und noch härter arbeiten, auch um mir meinen Lebensunterhalt zu
-                    verdienen.
+                    Nach meinem Abitur zog ich nach Hamburg und arbeitete als freischaﬀender Kameraassistent bei über <span style="font-weight: bold;">130 Filmproduktionen</span> in verschiedenen Ländern wie Frankreich, Indien und der Schweiz und knüpfte wertvolle Kontakte.
+                    <span style="font-weight: bold;">Ich wollte mehr lernen</span>, an größeren Sets sein und noch härter arbeiten, auch um mir meinen Lebensunterhalt zu verdienen.
                     ` : `
                     </br>
                     After graduating from high school, I moved to Hamburg and worked as a freelance camera
@@ -186,8 +183,9 @@ document.addEventListener("DOMContentLoaded", function() {
         </br></br>
 
         <div class="container" style="padding: 0;">
-            <div class="col-md-6 col-sm-12" style="padding: 0;padding-bottom: 20px;">
-                <img src="../images/Spenden.webp" alt="Spenden Ziel" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
+            <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
+                <img src="../images/Spenden.webp" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
+                <img src="../images/Studiengebühren.jpeg" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
             </div>
             <div class="col-md-6 col-sm-12" style="padding: 0;">
                 <p style="font-size: 15pt;">
@@ -272,9 +270,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                 </div>
             </div>
-
-            <div class="container">
-                <h2 class="font2" style="font-size: 18pt; font-weight: 700; margin-bottom: 10px">Showreel</h2>
+            
+            <div class="container" style="padding: 0;">
+                <h2 class="font2" style="font-size: 18pt; font-weight: 700; margin-bottom: 10px; padding: 0;">Showreel</h2>
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="embed-responsive" style="padding-bottom: 42%;">
