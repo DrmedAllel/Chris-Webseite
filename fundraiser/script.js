@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     komme und wohin ich gehen will.</br></br></span>
 
                     Das Studium in Los Angeles ist mit hohen Kosten verbunden. Allein die Studiengebühren
-                    betragen rund 150.000 Dollar, eine Kostenaufteilung findest du <a href="#costs">hier</a>.</br></br>
+                    betragen rund 150.000 Dollar.
 
                     Daher bitte ich Dich um Deine Hilfe. Wenn du mich unterstützen kannst und magst, würde ich
                     mich über jeden Euro freuen. Wenn es für dich gerade nicht möglich ist mich finanziell zu
