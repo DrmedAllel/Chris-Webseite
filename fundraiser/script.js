@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     Verwandten teilst. Natürlich werde ich dich auf dem laufenden halten.</br></br>
 
                     <span style="font-weight: bold;">Ich sehe dieses Studium als einzigartige Chance, von den Besten meines Fachs zu lernen
-                    um das Publikum mit außergewöhnlichen Filme zu begeistern.</span>
+                    um das Publikum mit außergewöhnlichen Filmen zu begeistern.</span>
                     ` : `
                     I am incredibly happy and <span style="font-weight: bold;">grateful</span> to all the people who have supported me. Especially in my
                     home state. Although many people there have nothing to do with film, I can always feel the
