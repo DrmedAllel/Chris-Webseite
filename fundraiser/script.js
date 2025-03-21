@@ -275,9 +275,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 <h2 class="font2" style="font-weight: 700; margin-bottom: 10px; padding: 0;">Showreel</h2>
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <div class="embed-responsive" style="padding-bottom: 42.3%;">
-                            <iframe class="embed-responsive-item" src="../videos/Cinematography Reel.mp4" loading="lazy" allowfullscreen controls></iframe>
-                        </div>
+                        <video width="100%" height="auto" controls>
+                            <source src="../videos/Cinematography Reel.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </div>
