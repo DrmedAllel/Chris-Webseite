@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </br></br>
 
         <div class="container" style="padding: 0;">
-            <div class="col-md-6 col-sm-12" style="padding-bottom: 20px;">
+            <div class="col-md-6 col-sm-12" style="padding:0; padding-bottom: 20px;">
                 <img src="../images/Spenden.webp" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
                 <img src="../images/Studiengebühren.jpeg" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
             </div>
