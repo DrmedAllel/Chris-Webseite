@@ -42,7 +42,14 @@ document.addEventListener("DOMContentLoaded", function() {
                         Jedes Jahr wagen tausende Menschen, sich bei dieser Talentschmiede zu bewerben - und ich
                         darf jetzt als <span style="font-weight: bold;">einziger Deutscher</span> einen der 24 Studienplätze für Kamera einnehmen und diese
                         riesige Chance nutzen. Dabei kannst Du mir helfen.
-                        ` : 'The goal is within reach. After years of hard work, I was accepted to one of the most prestigious film schools in the world in Los Angeles. There is only one obstacle. You can help me with that.'}</p>
+                        ` : `
+                        The goal is within reach. After years of hard work, I've been accepted at one of <span style="font-weight: bold;">the best film
+                        schools in the world</span>: the American Film Institute in the heart of Hollywood.
+                        Every year, thousands of people take the leap and apply to this training ground for the best of the
+                        best — this year, I am one of the lucky few — and the <span style="font-weight: bold;">only German</span> — who will get to take up one
+                        of the 24 places to study cinematography.
+                        With your help, I can make the most of this opportunity.
+                        `}</p>
                 </div>
             </div>
         </div>
@@ -70,19 +77,15 @@ document.addEventListener("DOMContentLoaded", function() {
                     mich während meiner letzten beiden Schuljahre sogar ganze <span style="font-weight: bold;">drei Monate</span> beurlauben ließ, um
                     keine Sekunde am Set zu verpassen.
                     ` : `
-                    Hi, I'm Chris Gruber and I've been doing nothing but making movies for over seven years. <span style="font-weight: bold;">My big
-                    dream </span> as a successful cinematographer is to bring great, captivating and innovative stories to the
-                    screens of this world with bespoke images.</br></br>
+                    Hi, I'm Chris Gruber and I've been making movies since childhood.
+                    <span style="font-weight: bold;">My dream</span> as a cinematographer is to bring fascinating, thrilling, and innovative stories to screens
+                    across the world. </br></br>
 
-                    When I was 16, I helped out for the first time on a student film set at the Baden-Württemberg Film
-                    Academy. I was so enthusiastic about both the work and the atmosphere that I even took a three-
-                    month leave of absence during my last two years of school so as not to miss a single second on
-                    set.</br></br>
-                    Together with friends, I began to shoot my own low-budget short films in the Stuttgart area and to
-                    determine the visual language myself as a cinematographer.</br>
-                    At the <span style="font-weight: bold;">Baden-Württemberg Youth Film Award</span>, I was awarded the prize for Best Cinematography
-                    for these projects three years in a row. <span style="font-weight: bold;">A great honor</span> for me - and a confirmation. I can do
-                    something, I have to pursue it, I thought to myself.</br></br>
+                    At the age of 16, I first helped out on a student film set at Filmakademie Baden-Württemberg. I
+                    was so delighted by both the work and the atmosphere that I ended up taking a whole <span style="font-weight: bold;">three
+                    months</span> oﬀ from my last two school years so I wouldn't miss a second on set.
+                    With some friends, I started shooting my own low-budget short films in the Stuttgart area and
+                    discovering my own visual language as a cameraman.
                     `}
                     </p>
                 </div>
@@ -122,14 +125,12 @@ document.addEventListener("DOMContentLoaded", function() {
                     <span style="font-weight: bold;">Ich wollte mehr lernen</span>, an größeren Sets sein und noch härter arbeiten, auch um mir meinen Lebensunterhalt zu verdienen.
                     ` : `
                     </br>
-                    After graduating from high school, I moved to Hamburg and worked as a freelance camera
-                    assistant on various projects (I had my first job there before I even moved there). I wanted to learn
-                    more, be on bigger sets and work even harder, also to earn a living.</br></br>  
-                    In 2023, after <span style="font-weight: bold;">over 130 film productions</span>, I applied to the Film academy Baden-Württemberg, the
-                    university where I learned to love filmmaking. I was rejected. To be honest, I'd be lying if I said it
-                    didn't affect me: when you work towards something for five years and you don't make it, it forces
-                    you to reflect. What was the reason, <span style="font-weight: bold;">what weaknesses do I have?</span> It felt like all the work had been
-                    for nothing.
+                    These eﬀorts paid oﬀ — not only in experience and some of my best friendships, but also in me
+                    winning the <span style="font-weight: bold;">Baden-Württemberg Youth Film Prize</span> for cinematography three years in a row. 
+                    After graduating from Gymnasium (high school), I moved to Hamburg and worked as a freelance
+                    camera assistant on over <span style="font-weight: bold;">130 film productions</span> in various countries such as France, India and
+                    Switzerland, gathering valuable contacts. <span style="font-weight: bold;">I wanted to learn more</span>, help out on bigger sets, and
+                    make a living while doing so — which meant working even harder.
                     `}
                     </p>
                 </div>
@@ -157,18 +158,20 @@ document.addEventListener("DOMContentLoaded", function() {
                     Insbesondere in meiner Heimat. Obwohl dort viele beruflich nichts mit Film am Hut haben, spüre
                     ich in Baden-Württemberg immer die Begeisterung für harte Arbeit und das Kino.
                     ` : `
-                    But giving up was not an option. Now it was time to fill in the gaps and eradicate my weaknesses.
-                    <span style="font-weight: bold;">Just to dream for a moment</span>, I applied to the <span style="font-weight: bold;">American Film Institute in Los Angeles</span> last year.</br></br>
+                    <span style="font-weight: bold;">Like everyone else, I wanted to study at the American Film Institute</span>. The Hollywood Reporter
+                    has consistently listed AFI as one of the top three film schools in the world for the past ten years.
+                    Some of the most important filmmakers of our time learned to master their craft there.
+                    Films created by alumni of AFI include Inception, Schindler's List, Inglourious Basterds, Django
+                    Unchained, Jurassic Park, Saving Private Ryan, Blue Velvet, The Tree of Life, Star Wars: The Last
+                    Jedi and many more. </br></br>
 
-                    Some of the most important filmmakers of our time have studied there. Graduates have created
-                    films such as Inception, Schindler's List, Inglorious Bastards, Django Unchained, Jurassic Park,
-                    Saving Private Ryan, Blue Velvet, The Tree of Life, Star Wars the Last Jedi and many more.</br></br>
+                    This March, I received the response to my application and held my breath.
+                    <span style="font-weight: bold;">The American Film Institute oﬀered me a place as part of the Cinematography Class of
+                    2027, and I now have the great privilege of moving to Los Angeles and realizing my dream.</span> </br></br>
 
-                    Then this March came the reply. Again, I was expecting a rejection. I opened the email and
-                    couldn't believe my eyes. <span style="font-weight: bold;">The AFI was offering me a seat.</span> <span style="font-weight: bold;">As part of the Cinematography Class of
-                    2027, I now have the great privilege of moving to Los Angeles and realizing my dream.</span></br></br>
-                    Starting in Ludwigsburg and Stuttgart, <span style="font-weight: bold;">I worked my way up from the bottom</span> to get to this point.
-                    Without any shortcuts.
+                    I am absolutely elated and deeply <span style="font-weight: bold;">grateful</span> to all the people who have supported me. Especially in
+                    my home country. Although many people there have nothing to do with film professionally, I can
+                    always feel the enthusiasm for hard work and cinema in Baden-Württemberg.
                     `}
                     </p>
                 </div>
@@ -204,14 +207,17 @@ document.addEventListener("DOMContentLoaded", function() {
                     <span style="font-weight: bold;">Ich sehe dieses Studium als einzigartige Chance, von den Besten meines Fachs zu lernen
                     um das Publikum mit außergewöhnlichen Filmen zu begeistern.</span>
                     ` : `
-                    I am incredibly happy and <span style="font-weight: bold;">grateful</span> to all the people who have supported me. Especially in my
-                    home state. Although many people there have nothing to do with film, I can always feel the
-                    enthusiasm for cinema. And for hard, honest work. </br></br>
-                    I want to continue this work tirelessly overseas. <span style="font-weight: bold;">I am aware of where I come from and where I
-                    want to go.</span> </br></br>
-                    Unfortunately, studying in Los Angeles involves high costs. Therefore, I am asking for your help.
-                    Any amount will help me to take advantage of this great opportunity. </br></br>
-                    <span style="font-weight: bold;">I see this study as a unique chance to learn from the best in my field and create extraordinary films.</span>
+                    That hard work is what I hope to continue overseas. <span style="font-weight: bold;">I know where I come from, and I know
+                    where I'm going.</span> </br></br>
+
+                    Studying in Los Angeles is very expensive. Tuition fees alone
+                    are around 150.000 dollars. You can find a breakdown of costs here.
+                    This is why I am asking for your support. If you can and would like to support me, every Euro
+                    helps. And if you cannot support me financially, it would help immensely if you could share this
+                    campaign with friends and relatives. Of course I will keep you up to date with any developments. </br></br>
+
+                    <span style="font-weight: bold;">To me, this course of study is a unique opportunity to learn from the best in my field, and to
+                    help inspire future audiences with extraordinary films.</span>
                     `}
                 </p>
             </div>
@@ -242,6 +248,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <p style="font-size: 10pt; padding: 0;">Christian Gruber</p>
                                     <p style="font-size: 10pt; padding: 0;">IBAN DE 53 6045 0050 1116 2910 01</p>
                                     <p style="font-size: 10pt; padding: 0;">BIC: SOLADES1LBG</p>
+                                    <p style="font-size: 10pt; padding: 0;">${language === 'de' ? 'Verwendungszweck:' : 'Transfer purpose:'} AFI Chris</p>
                                 </div>
                             </div>
                         </div>
