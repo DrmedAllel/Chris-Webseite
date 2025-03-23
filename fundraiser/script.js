@@ -325,9 +325,9 @@ document.addEventListener("DOMContentLoaded", function () {
             e.preventDefault(); // Prevent the default link behavior
             let alert_message;
             if (language === 'de') {
-                alert_message = "Vielen Dank für deine Unterstützung! Du wirst jetzt zu PayPal weitergeleitet. Bitte denke daran, das Geld an Freunde und Familie zu senden, um Gebühren zu vermeiden.";
+                alert_message = "Vielen Dank für deine Unterstützung! Du wirst jetzt zu PayPal weitergeleitet. Bitte denke daran, das Geld an Freunde und Familie zu senden, um Gebühren zu vermeiden. Verwendungszweck: AFI Chris";
             } else {
-                alert_message = "Thank you for your support! You will now be redirected to PayPal. Please remember to send the money to friends and family to avoid fees.";
+                alert_message = "Thank you for your support! You will now be redirected to PayPal. Please remember to send the money to friends and family to avoid fees. Transfer purpose: AFI Chris";
             }
 
             // Show alert

@@ -65,13 +65,14 @@ window.addEventListener("load", function () {
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text">
-                        <br>
-                        <span class="name">About me</span>
-                        <span class="skills">${ language === 'de' ? 'Meine Geschichte' : 'My Journey'}</span>
-                        <br>
+            <div class="row no-gutters">
+                <div class="col-lg-6" style="padding: 0;">
+                    <img src="../images/personal/Chris_Kopfhörer.webp" class="img-responsive img-centered" alt="Chris Gruber" style="width: 100%; display: block;">
+                </div>
+                <div class="col-lg-6" style="padding: 0;">
+                    <div class="intro-text" style="text-align: left; margin: 0; padding-left: 20px;">
+                        <h2 class="name" style="margin-top: 0;">About me</h2>
+                        <p class="skills" style="margin: 0;">${ language === 'de' ? 'Biografie' : 'Biography'}</p>
                     </div>
                 </div>
             </div>
@@ -81,68 +82,65 @@ window.addEventListener("load", function () {
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <img src="../images/personal/Chris_Kopfhörer.webp" class="img-responsive img-centered" alt="Chris Gruber" style="max-width: 60%; margin: 0 auto 30px auto;">
+                <!-- Biography Section -->
+                <div class="col-md-6" style="font-size: 15pt; text-align: left;">
+                    <p style="font-size: 15pt;">
+                        ${ language === 'de' ? `
+                        Chris Gruber ist ein Kameramann, dessen Weg ins Filmemachen alles andere als gewöhnlich ist.
+                        Er wächst umgeben von fantastischen Geschichten seines Großvaters und einer Leidenschaft für
+                        das Verständnis menschlichen Verhaltens auf. Doch erst als er das Filmemachen für sich
+                        entdeckt, <span style="font-weight: bold;">findet er seine wahre Berufung</span> – einen Weg, der seine Liebe zum
+                        Geschichtenerzählen, zur Psychologie, zur Technologie und zur Kunst miteinander verbindet. </br></br>
+
+                        Mit einem vielfältigen Hintergrund, der Erfahrungen im Theater, auf Reisen und eine tiefgreifende
+                        persönliche Entwicklung umfasst, nähert sich Chris der Cinematografie mit einem besonderen
+                        Fokus auf Zusammenarbeit, Sinnhaftigkeit und emotionaler Resonanz. Er ist überzeugt, <span style="font-weight: bold;">dass es
+                        vor allem darum geht, der Geschichte zu dienen</span>, das Ego im Zaum zu halten und die tieferen
+                        Zusammenhänge jeder Szene zu verstehen.Chris’ Hingabe an sein Handwerk, kombiniert mit
+                        seiner Widerstandskraft und einzigartigen Perspektive, prägt seine Arbeit, <span style="font-weight: bold;">in der jede
+                        Kamerentscheidung nicht nur absichtlich und bedacht ist</span>, sondern von einer Leidenschaft für
+                        die Kunst und die zugrunde liegende Philosophie der Filmproduktion getragen wird.</br></br>
+                        ` : `
+                        Chris Gruber is a cinematographer whose journey into filmmaking was anything but conventional.
+                        Having grown up surrounded by fantastical stories from his grandfather and a passion for
+                        understanding human behavior. Although it wasn’t until he discovered filmmaking that he found
+                        his true calling — <span style="font-weight: bold;">a path that blends his love for storytelling, psychology, technology, and art</span>.
+                        Drawing from a diverse background that includes experiences in theater, travel, and a deep
+                        personal journey, Chris approaches cinematography with a focus on collaboration, purpose, and
+                        emotional resonance. He believes in <span style="font-weight: bold;">serving the story above all</span>, keeping ego in check, and
+                        understanding the deeper narrative within each scene. Chris’s commitment to his craft, combined
+                        with his resilience and unique perspective, shapes his work, where <span style="font-weight: bold;">every camera choice is
+                        intentional, thoughtful, and driven</span> by a love for both the art and the philosophy behind
+                        filmmaking.
+                        `}
+                    </p>
+                </div>
+                <!-- Awards Section -->
+                <div class="col-md-6" style="text-align: left; padding-bottom: 100px;">
+                    <p style="font-size: 15pt; padding-bottom: 100px;">${ language === 'de' ? `
+                        Mit seinem Einsatz für stetiges Wachstum und der Überzeugung, dass jede Herausforderung eine
+                        Chance ist, setzt Chris sein Handwerk leidenschaftlich ein, <span style="font-weight: bold;">um Geschichten zu erzählen, die
+                        wirklich von Bedeutung sind</span> – stets mit Staunen und dem Traum, durch visuelles Storytelling zu
+                        inspirieren. </br></br>
+
+                        Neben all diesen Bestrebungen verfolgt Chris auch leidenschaftlich seinen Job als Vollzeit-Idiot.
+                        `: `
+                        With a dedication to constant growth and a belief that every challenge is an opportunity, Chris is
+                        passionate about <span style="font-weight: bold;">using his craft to contribute to stories that matter</span>, always with wonder and a
+                        dream to inspire through visual storytelling. </br></br>
+
+                        In addition to all these endeavors, Chris passionately pursues his job as fulltime idiot.
+                        `}
+                    </p>
+
+                    <h2 class="font2" style="font-size: 15pt;">${ language === 'de' ? 'Preise' : 'Awards'}</h2></br>
+                    <ul style="font-size: 12pt; list-style-position: inside; padding-left: 0px;">
+                        <li>${ language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2024' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2024'}</li>
+                        <li>${ language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2023' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2023'}</li>
+                        <li>${ language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2022' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2022'}</li>
+                    </ul>
                 </div>
             </div>
-        <p class="col-lg-12 text-center" style="font-size: 15pt; padding-bottom: 100px;">
-        <!-- Content for the about section would go here --><br>
-        ${ language === 'de' ? `
-            Chris Gruber ist ein Kameramann, dessen Weg ins Filmemachen alles andere als gewöhnlich ist.
-            Er wächst umgeben von fantastischen Geschichten seines Großvaters und einer Leidenschaft für
-            das Verständnis menschlichen Verhaltens auf. Doch erst als er das Filmemachen für sich
-            entdeckt, findet er seine wahre Berufung – einen Weg, der seine Liebe zum Geschichtenerzählen,
-            zur Psychologie, zur Technologie und zur Kunst miteinander verbindet.</br></br>
-
-            Mit einem vielfältigen Hintergrund, der Erfahrungen im Theater, auf Reisen und eine tiefgreifende
-            persönliche Entwicklung umfasst, nähert sich Chris der Cinematografie mit einem besonderen
-            Fokus auf Zusammenarbeit, Sinnhaftigkeit und emotionaler Resonanz. Er ist überzeugt, dass es
-            vor allem darum geht, der Geschichte zu dienen, das Ego im Zaum zu halten und die tieferen
-            Zusammenhänge jeder Szene zu verstehen.Chris’ Hingabe an sein Handwerk, kombiniert mit
-            seiner Widerstandskraft und einzigartigen Perspektive, prägt seine Arbeit, in der jede
-            Kamerentscheidung nicht nur absichtlich und bedacht ist, sondern von einer Leidenschaft für die
-            Kunst und die zugrunde liegende Philosophie der Filmproduktion getragen wird.</br></br>
-
-            Mit seinem Einsatz für stetiges Wachstum und der Überzeugung, dass jede Herausforderung eine
-            Chance ist, setzt Chris sein Handwerk leidenschaftlich ein, um Geschichten zu erzählen, die
-            wirklich von Bedeutung sind – stets mit Staunen und dem Traum, durch visuelles Storytelling zu
-            inspirieren.</br></br>
-
-            Neben all diesen Bestrebungen verfolgt Chris auch leidenschaftlich seinen Job als Vollzeit-Idiot.
-            `:`
-            Chris Gruber is a cinematographer whose journey into filmmaking was anything but
-            conventional. Having grown up surrounded by fantastical stories from his grandfather and
-            a passion for understanding human behavior. Although it wasn’t until he discovered
-            filmmaking that he found his true calling—a path that blends his love for storytelling,
-            psychology, technology, and art.</br></br>
-
-            Drawing from a diverse background that includes experiences in theater, travel, and a
-            deep personal journey, Chris approaches cinematography with a focus on collaboration,
-            purpose, and emotional resonance. He believes in serving the story above all, keeping
-            ego in check, and understanding the deeper narrative within each scene. Chris’s
-            commitment to his craft, combined with his resilience and unique perspective, shapes his
-            work, where every camera choice is intentional, thoughtful, and driven by a love for both
-            the art and the philosophy behind filmmaking.</br></br>
-
-            With a dedication to constant growth and a belief that every challenge is an opportunity,
-            Chris is passionate about using his craft to contribute to stories that matter, always with
-            wonder and a dream to inspire through visual storytelling.</br></br>
-
-            In addition to all these endeavors, Chris passionately pursues his job as fulltime idiot.
-            `}      
-        </p>
-        <div style="padding-bottom: 100px;">
-            <h2 class="font2 text-center">${ language === 'de' ? 'Preise' : 'Awards'}</h2></br>
-            <ul style="font-size: 15pt; text-align: center; list-style-position: inside;">
-                <li>${language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2024' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2024'}</li>
-                <li>${language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2023' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2023'}</li>
-                <li>${language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2022' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2022'}</li>
-            </ul>
-        </div>
-        <div class="kontakt text-center">
-            <p>${ language === 'de' ? 'Kontakt' : 'Contact'}</p>
-            <a href="mailto: gruberchristianfb@gmail.com">gruberchristianfb@gmail.com</a>
-            <a href="tel:+4915908138508">+4915908138508</a>
         </div>
     </section>
     `;
