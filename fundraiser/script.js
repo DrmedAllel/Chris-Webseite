@@ -60,7 +60,10 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/m4L4mXtTLjE" allowfullscreen></iframe>
+                        <video class="embed-responsive-item" controls>
+                            <source src="../videos/Version Website ${language === 'de' ? 'DE':'ENG'}.mp4" type="video/quicktime">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
