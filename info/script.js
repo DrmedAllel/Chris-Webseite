@@ -71,8 +71,7 @@ window.addEventListener("load", function () {
                 </div>
                 <div class="col-lg-6" style="padding: 0;">
                     <div class="intro-text" style="text-align: left; margin: 0; padding-left: 20px;">
-                        <h2 class="name" style="margin-top: 0;">About me</h2>
-                        <p class="skills" style="margin: 0;">${ language === 'de' ? 'Biografie' : 'Biography'}</p>
+                        <h2 class="name" style="margin-top: 0;">${ language === 'de' ? 'Biografie' : 'Biography'}</h2>
                     </div>
                 </div>
             </div>
@@ -96,28 +95,28 @@ window.addEventListener("load", function () {
                         persönliche Entwicklung umfasst, nähert sich Chris der Cinematografie mit einem besonderen
                         Fokus auf Zusammenarbeit, Sinnhaftigkeit und emotionaler Resonanz. Er ist überzeugt, <span style="font-weight: bold;">dass es
                         vor allem darum geht, der Geschichte zu dienen</span>, das Ego im Zaum zu halten und die tieferen
-                        Zusammenhänge jeder Szene zu verstehen.Chris’ Hingabe an sein Handwerk, kombiniert mit
-                        seiner Widerstandskraft und einzigartigen Perspektive, prägt seine Arbeit, <span style="font-weight: bold;">in der jede
-                        Kamerentscheidung nicht nur absichtlich und bedacht ist</span>, sondern von einer Leidenschaft für
-                        die Kunst und die zugrunde liegende Philosophie der Filmproduktion getragen wird.</br></br>
+                        Zusammenhänge jeder Szene zu verstehen. Chris’ Hingabe an sein Handwerk, kombiniert mit
+                        seiner Widerstandskraft
                         ` : `
                         Chris Gruber is a cinematographer whose journey into filmmaking was anything but conventional.
                         Having grown up surrounded by fantastical stories from his grandfather and a passion for
                         understanding human behavior. Although it wasn’t until he discovered filmmaking that he found
-                        his true calling — <span style="font-weight: bold;">a path that blends his love for storytelling, psychology, technology, and art</span>.
+                        his true calling — <span style="font-weight: bold;">a path that blends his love for storytelling, psychology, technology, and art</span>. </br></br>
                         Drawing from a diverse background that includes experiences in theater, travel, and a deep
                         personal journey, Chris approaches cinematography with a focus on collaboration, purpose, and
                         emotional resonance. He believes in <span style="font-weight: bold;">serving the story above all</span>, keeping ego in check, and
                         understanding the deeper narrative within each scene. Chris’s commitment to his craft, combined
-                        with his resilience and unique perspective, shapes his work, where <span style="font-weight: bold;">every camera choice is
-                        intentional, thoughtful, and driven</span> by a love for both the art and the philosophy behind
-                        filmmaking.
+                        with his resilience
                         `}
                     </p>
                 </div>
                 <!-- Awards Section -->
                 <div class="col-md-6" style="text-align: left; padding-bottom: 100px;">
                     <p style="font-size: 15pt; padding-bottom: 100px;">${ language === 'de' ? `
+                        und einzigartigen Perspektive, prägt seine Arbeit, <span style="font-weight: bold;">in der jede
+                        Kamerentscheidung nicht nur absichtlich und bedacht ist</span>, sondern von einer Leidenschaft für
+                        die Kunst und die zugrunde liegende Philosophie der Filmproduktion getragen wird. </br></br>
+
                         Mit seinem Einsatz für stetiges Wachstum und der Überzeugung, dass jede Herausforderung eine
                         Chance ist, setzt Chris sein Handwerk leidenschaftlich ein, <span style="font-weight: bold;">um Geschichten zu erzählen, die
                         wirklich von Bedeutung sind</span> – stets mit Staunen und dem Traum, durch visuelles Storytelling zu
@@ -125,6 +124,10 @@ window.addEventListener("load", function () {
 
                         Neben all diesen Bestrebungen verfolgt Chris auch leidenschaftlich seinen Job als Vollzeit-Idiot.
                         `: `
+                        and unique perspective, shapes his work, where <span style="font-weight: bold;">every camera choice is
+                        intentional, thoughtful, and driven</span> by a love for both the art and the philosophy behind
+                        filmmaking. </br></br>
+
                         With a dedication to constant growth and a belief that every challenge is an opportunity, Chris is
                         passionate about <span style="font-weight: bold;">using his craft to contribute to stories that matter</span>, always with wonder and a
                         dream to inspire through visual storytelling. </br></br>
@@ -132,15 +135,17 @@ window.addEventListener("load", function () {
                         In addition to all these endeavors, Chris passionately pursues his job as fulltime idiot.
                         `}
                     </p>
-
-                    <h2 class="font2" style="font-size: 15pt;">${ language === 'de' ? 'Preise' : 'Awards'}</h2></br>
-                    <ul style="font-size: 12pt; list-style-position: inside; padding-left: 0px;">
-                        <li>${ language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2024' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2024'}</li>
-                        <li>${ language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2023' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2023'}</li>
-                        <li>${ language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2022' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2022'}</li>
-                    </ul>
                 </div>
             </div>
+        </div>
+
+        <div class="container text-center" style="padding-bottom: 50px;">
+            <h2 class="font2" style="font-size: 20pt; text-transform: uppercase; font-weight: 700;">${ language === 'de' ? 'Preise' : 'Awards'}</h2></br>
+                <ul style="font-size: 15pt; list-style-position: inside; padding-left: 0px;">
+                    <li>${ language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2024' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2024'}</li>
+                    <li>${ language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2023' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2023'}</li>
+                    <li>${ language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2022' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2022'}</li>
+                </ul>
         </div>
     </section>
     `;
