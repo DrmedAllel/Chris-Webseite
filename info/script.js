@@ -64,23 +64,16 @@ window.addEventListener("load", function () {
     const html = `
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="row no-gutters">
-                <div class="col-lg-6" style="padding: 0;">
-                    <img src="../images/personal/Chris_Kopfhörer.webp" class="img-responsive img-centered" alt="Chris Gruber" style="width: 100%; display: block;">
-                </div>
-                <div class="col-lg-6" style="padding: 0;">
-                    <div class="intro-text" style="text-align: left; margin: 0; padding-left: 20px;">
-                        <h2 class="name" style="margin-top: 0;">${ language === 'de' ? 'Biografie' : 'Biography'}</h2>
-                    </div>
-                </div>
+        <div class="container" style="padding: 0; padding-top: 10rem; padding-bottom: 5rem;">
+            <div class="col-12" style="padding: 0;">
+                <img src="${ language === 'de' ? '../images/personal/Biografie_DE.jpg' : '../images/personal/Biografie_EN.jpg'}" class="img-responsive" alt="Chris Gruber" style="padding: 0; max-width: 100%; height: auto; display: block; margin: 0;">
             </div>
         </div>
     </header>
 
     <section id="about">
         <div class="container">
-            <div class="row">
+            <div class="row" style="padding-bottom: 15rem;">
                 <!-- Biography Section -->
                 <div class="col-md-6" style="font-size: 15pt; text-align: left;">
                     <p style="font-size: 15pt;">
@@ -111,7 +104,7 @@ window.addEventListener("load", function () {
                     </p>
                 </div>
                 <!-- Awards Section -->
-                <div class="col-md-6" style="text-align: left; padding-bottom: 100px;">
+                <div class="col-md-6" style="text-align: left;">
                     <p style="font-size: 15pt; padding-bottom: 100px;">${ language === 'de' ? `
                         und einzigartigen Perspektive, prägt seine Arbeit, <span style="font-weight: bold;">in der jede
                         Kamerentscheidung nicht nur absichtlich und bedacht ist</span>, sondern von einer Leidenschaft für
@@ -139,7 +132,7 @@ window.addEventListener("load", function () {
             </div>
         </div>
 
-        <div class="container text-center" style="padding-bottom: 50px;">
+        <div class="container" style="padding-bottom: 50px; text-align: left;">
             <h2 class="font2" style="font-size: 20pt; text-transform: uppercase; font-weight: 700;">${ language === 'de' ? 'Preise' : 'Awards'}</h2></br>
                 <ul style="font-size: 15pt; list-style-position: inside; padding-left: 0px;">
                     <li>${ language === 'de' ? 'Jugenfilmpreis Baden-Württemberg “Beste Kamera” 2024' : 'Baden-Württemberg Youth Film Award “Best Cinematography ” 2024'}</li>
