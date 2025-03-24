@@ -73,7 +73,7 @@ window.addEventListener("load", function () {
 
     <section id="about">
         <div class="container">
-            <div class="row" style="padding-bottom: 15rem;">
+            <div class="row" style="padding-bottom: 7rem;">
                 <!-- Biography Section -->
                 <div class="col-md-6" style="font-size: 15pt; text-align: left;">
                     <p style="font-size: 15pt;">

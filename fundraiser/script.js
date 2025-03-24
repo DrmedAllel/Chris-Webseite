@@ -60,10 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" controls>
-                            <source src="../videos/Version Website ${language === 'de' ? 'DE':'ENG'}.mp4" type="video/quicktime">
-                            Your browser does not support the video tag.
-                        </video>
+                        <video class="embed-responsive-item" src="../videos/Version Website ${language === 'de' ? 'DE':'ENG'}.mp4"" loading="eager" controls playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
                     </div>
                 </div>
             </div>
