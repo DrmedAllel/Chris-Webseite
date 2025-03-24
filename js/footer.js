@@ -2,7 +2,7 @@ function insertFooter () {
     const language = localStorage.getItem('preferredLanguage') || 'de';
     const html = `    
         <footer class="text-center">
-            <div class="footer-above"></div>
+            <div class="footer-above">
                 <div class="footer-below">
                     <div class="container">
                         <div class="row">
