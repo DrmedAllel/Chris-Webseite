@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="container" style="padding: 0;">
             <div class="col-md-6 col-sm-12" style="padding:0; padding-bottom: 20px;">
                 <img src="${language === 'de' ? '../images/Progress_Money_DE.jpg' : '../images/Progress_Money_EN.jpg'}" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
-                <img src="${language === 'de' ? '../images/COST_STATEMENT_DE.jpg' : '../images/COST_STATEMENT_EN.jpg'}" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
+                <img src="${language === 'de' ? '../images/COST_STATEMENT_DE.png' : '../images/COST_STATEMENT_EN.png'}" alt="Alumni Anerkennung" class="img-responsive" style="width: 100%; height: auto; object-fit: contain;">
             </div>
             <div class="col-md-6 col-sm-12" style="padding: 0;">
                 <p style="font-size: 15pt;">
