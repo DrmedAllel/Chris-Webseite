@@ -82,14 +82,14 @@ window.addEventListener("load", function () {
                         Er wächst umgeben von fantastischen Geschichten seines Großvaters und einer Leidenschaft für
                         das Verständnis menschlichen Verhaltens auf. Doch erst als er das Filmemachen für sich
                         entdeckt, <span style="font-weight: bold;">findet er seine wahre Berufung</span> – einen Weg, der seine Liebe zum
-                        Geschichtenerzählen, zur Psychologie, zur Technologie und zur Kunst miteinander verbindet. </br></br>
+                        Geschichtenerzählen, zur Psychologie, zur Technologie und zur Kunst vereint. </br></br>
 
-                        Mit einem vielfältigen Hintergrund, der Erfahrungen im Theater, auf Reisen und eine tiefgreifende
-                        persönliche Entwicklung umfasst, nähert sich Chris der Cinematografie mit einem besonderen
-                        Fokus auf Zusammenarbeit, Sinnhaftigkeit und emotionaler Resonanz. Er ist überzeugt, <span style="font-weight: bold;">dass es
-                        vor allem darum geht, der Geschichte zu dienen</span>, das Ego im Zaum zu halten und die tieferen
-                        Zusammenhänge jeder Szene zu verstehen. Chris’ Hingabe an sein Handwerk, kombiniert mit
-                        seiner Widerstandskraft
+                        Mit einem vielfältigen Hintergrund, der unter anderem Erfahrungen im Theater, auf Reisen und eine
+                        tiefgreifende persönliche Entwicklung umfasst, nähert sich Chris der Cinematografie mit einem
+                        besonderen Fokus auf Zusammenarbeit, Sinnhaftigkeit und emotionaler Resonanz. Er ist
+                        überzeugt, <span style="font-weight: bold;">dass es vor allem darum geht, der Geschichte zu dienen</span>, das Ego im Zaum zu
+                        halten und die tieferen Zusammenhänge jeder Szene zu verstehen. Chris’ Hingabe an sein
+                        Handwerk, kombiniert mit seiner Widerstandskraft
                         ` : `
                         Chris Gruber is a cinematographer whose journey into filmmaking was anything but conventional.
                         Having grown up surrounded by fantastical stories from his grandfather and a passion for
@@ -106,9 +106,9 @@ window.addEventListener("load", function () {
                 <!-- Awards Section -->
                 <div class="col-md-6" style="text-align: left;">
                     <p style="font-size: 15pt; padding-bottom: 100px;">${ language === 'de' ? `
-                        und einzigartigen Perspektive, prägt seine Arbeit, <span style="font-weight: bold;">in der jede
-                        Kamerentscheidung nicht nur absichtlich und bedacht ist</span>, sondern von einer Leidenschaft für
-                        die Kunst und die zugrunde liegende Philosophie der Filmproduktion getragen wird. </br></br>
+                        und einzigartigen Perspektive, prägt seine Arbeit, <span style="font-weight: bold;">in der jede Kamerentscheidung nicht nur
+                        absichtlich und bedacht ist</span>, sondern von einer Leidenschaft für die Kunst und die zugrunde
+                        liegende Philosophie der Filmproduktion getragen wird. </br></br>
 
                         Mit seinem Einsatz für stetiges Wachstum und der Überzeugung, dass jede Herausforderung eine
                         Chance ist, setzt Chris sein Handwerk leidenschaftlich ein, <span style="font-weight: bold;">um Geschichten zu erzählen, die
