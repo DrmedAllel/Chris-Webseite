@@ -1,27 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Get all iframe elements with video
-    const videoIframes = document.querySelectorAll("iframe[src$='.m4v']");
-    
-    videoIframes.forEach(iframe => {
-        // Once the iframe loads
-        iframe.addEventListener("load", function() {
-            // Access the video element inside the iframe if possible
-            try {
-                const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-                const video = iframeDocument.querySelector("video");
-                
-                if (video) {
-                    // Mute the video on load instead of pausing
-                    video.muted = true;
-                }
-            } catch (error) {
-                // Same-origin policy may prevent access to iframe content
-                console.log("Could not access iframe content due to same-origin policy:", error);
-            }
-        });
-    });
-});
-
 document.addEventListener("DOMContentLoaded", function() {
     const language = localStorage.getItem('preferredLanguage') || 'de';
 
@@ -282,9 +258,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <h2 class="font2" style="font-weight: 700; margin-bottom: 10px; padding: 0;">Showreel</h2>
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <video width="100%" height="auto" controls>
-                            <source src="../videos/Cinematography Reel.mp4" type="video/mp4">
-                        </video>
+                        <video class="embed-responsive-item" src="../videos/Cinematography Reel.mp4" loading="eager" controls playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
                     </div>
                 </div>
             </div>
