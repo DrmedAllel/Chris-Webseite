@@ -181,7 +181,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     Verwandten teilst. Natürlich werde ich dich auf dem laufenden halten.</br></br>
 
                     <span style="font-weight: bold;">Ich sehe dieses Studium als einzigartige Chance, von den Besten meines Fachs zu lernen
-                    um das Publikum mit außergewöhnlichen Filmen zu begeistern.</span>
+                    um das Publikum mit außergewöhnlichen Filmen zu begeistern.</span> </br></br>
+
+                    Eine erste Presseberichterstattung aus der Stuttgarter Zeitung findest du <a href="https://www.stuttgarter-zeitung.de/inhalt.filmakademie-ludwigsburg-der-grosse-traum-von-hollywood.91e970cb-a7be-4346-af04-7a706a029762.html" target="_blank">hier</a>.
                     ` : `
                     That hard work is what I hope to continue overseas. <span style="font-weight: bold;">I know where I come from, and I know
                     where I'm going.</span> </br></br>
@@ -193,7 +195,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     campaign with friends and relatives. Of course I will keep you up to date with any developments. </br></br>
 
                     <span style="font-weight: bold;">To me, this course of study is a unique opportunity to learn from the best in my field, and to
-                    help inspire future audiences with extraordinary films.</span>
+                    help inspire future audiences with extraordinary films.</span> </br></br>
+
+                    You can find the first press coverage from the Stuttgarter Zeitung <a href="https://www.stuttgarter-zeitung.de/inhalt.filmakademie-ludwigsburg-der-grosse-traum-von-hollywood.91e970cb-a7be-4346-af04-7a706a029762.html" target="_blank">here</a>.
                     `}
                 </p>
             </div>
