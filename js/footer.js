@@ -1,7 +1,7 @@
 function insertFooter () {
     const language = localStorage.getItem('preferredLanguage') || 'de';
     const html = `    
-        <footer class="text-center">
+        <footer class="text-center" style="margin-bottom: 10vh;">
             <div class="footer-above">
                 <div class="footer-below">
                     <div class="container">
