@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="col-md-12 col-sm-12" style="padding-bottom: 40px; padding-left: 30px;">
                         <div class="row text-center" style="padding-bottom: 20px;">
                             <div class="col-lg-12">
-                                <h2 class="font2" style="font-weight:700; margin-bottom: 10px; margin-top: 100px">${language === 'de' ? 'Ich freue mich über jede Unterstützung!' : 'I appreciate every support!'}</h2>
+                                <h2 class="font2" style="font-weight:700; margin-bottom: 10px; margin-top: 100px; max-width: 100vw;">${language === 'de' ? 'Ich freue mich über jede Unterstützung!' : 'I appreciate every support!'}</h2>
                             </div>
                         </div>
                         <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 30px;">
@@ -261,8 +261,8 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="container" style="padding: 0;">
                 <h2 class="font2" style="font-weight: 700; margin-bottom: 10px; padding: 0;">Showreel</h2>
                 <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <video class="embed-responsive-item" src="../videos/Cinematography Reel.mp4" loading="eager" controls playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
+                    <div class="col-lg-12 text-center" style="padding: 0;">
+                        <video class="embed-responsive-item" src="../videos/Cinematography Reel.mp4" loading="eager" controls playsinline style="width: 90%; height: auto; object-fit: cover;"></video>
                     </div>
                 </div>
             </div>
