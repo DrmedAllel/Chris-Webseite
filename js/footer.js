@@ -28,7 +28,7 @@ function insertFooter () {
                             </div>
                             <br>
                             <div class="col-lg-12 text-center">Copyright Chris Gruber</div>
-                            <div class="col-lg-12 text-center" style="color: #a3a3a3; font-size: 8pt;">Made by <a href="https://claudiuslaur.de" target="_blank" style="color: #a3a3a3;">Claudius Laur</a></div>
+                            <div class="col-lg-12 text-center" style="color: #a3a3a3; font-size: 8pt;">Created by <a href="https://claudiuslaur.de" target="_blank" style="color: #a3a3a3;">Claudius Laur</a></div>
                         </div>
                     </div>
                 </div>
