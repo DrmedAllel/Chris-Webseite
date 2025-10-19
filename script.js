@@ -55,14 +55,8 @@ window.addEventListener("load", function () {
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>${ language === 'de' ? 'Unterstütze mein Studium' : 'Support my studies'}</h2>
                     </br>
-                    <p>
-                        ${ language === 'de' ? `Das Ziel ist zum Greifen nah. Nach jahrelanger harter Arbeit wurde ich in Los Angeles an einer der renommiertesten Filmschulen der Welt angenommen. Es gibt nur ein Hindernis. Dabei kannst Du mir helfen.</br></br>
-                        `: `
-                        The goal is within reach. After years of hard work, I was accepted to one of the most prestigious film schools in the world in Los Angeles. There is only one obstacle. You can help me with that.</br></br>`}
-                    </p>
-                    <a href="https://chris-gruber.com/fundraiser/" class="" style="font-size: 15pt; text-decoration: underline;">${ language === 'de' ? 'Erfahre mehr' : 'Learn more'}</a>
+                    <a href="https://chris-gruber.com/info/" class="" style="font-size: 15pt; text-decoration: underline;">${ language === 'de' ? 'Erfahre mehr' : 'Learn more'}</a>
                 </div>
             </div>
         </div>
