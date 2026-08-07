@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const language = localStorage.getItem('preferredLanguage') || 'de';
 
     const html = `
-    <section id="showreel" style="padding-bottom: 100px;">                        
+    <section id="showreel" style="padding-bottom: 100px; margin-top: 5rem;">                        
             <div class="container" style="padding: 0;">
                 <h2 class="font2" style="font-weight: 700; margin-bottom: 10px; padding: 10px;">Showreel</h2>
                 <div class="row">
