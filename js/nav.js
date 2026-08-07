@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <a href="#page-top"></a>
             </li>
             <li>
+            <a href="https://chris-gruber.com/showreel/">Showreel</a>
             </li>
             <li>
             <a href="https://chris-gruber.com/info/">Info</a>
