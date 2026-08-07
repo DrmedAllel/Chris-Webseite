@@ -56,7 +56,7 @@ window.addEventListener("load", function () {
                         Chris Gruber ist ein Kameramann, dessen Weg ins Filmemachen alles andere als gewöhnlich ist.
                         Er wächst umgeben von fantastischen Geschichten seines Großvaters und einer Leidenschaft für
                         das Verständnis menschlichen Verhaltens auf. Doch erst als er das Filmemachen für sich
-                        entdeckt, <span style="font-weight: bold;">findet er seine wahre Berufung</span> – einen Weg, der seine Liebe zum
+                        entdeckt, <span style="font-weight: bold;">findet er seine wahre Berufung</span> einen Weg, der seine Liebe zum
                         Geschichtenerzählen, zur Psychologie, zur Technologie und zur Kunst vereint. </br></br>
 
                         Mit einem vielfältigen Hintergrund, der unter anderem Erfahrungen im Theater, auf Reisen und eine
@@ -69,7 +69,7 @@ window.addEventListener("load", function () {
                         Chris Gruber is a cinematographer whose journey into filmmaking was anything but conventional.
                         Having grown up surrounded by fantastical stories from his grandfather and a passion for
                         understanding human behavior. Although it wasn’t until he discovered filmmaking that he found
-                        his true calling — <span style="font-weight: bold;">a path that blends his love for storytelling, psychology, technology, and art</span>. </br></br>
+                        his true calling <span style="font-weight: bold;">a path that blends his love for storytelling, psychology, technology, and art</span>. </br></br>
                         Drawing from a diverse background that includes experiences in theater, travel, and a deep
                         personal journey, Chris approaches cinematography with a focus on collaboration, purpose, and
                         emotional resonance. He believes in <span style="font-weight: bold;">serving the story above all</span>, keeping ego in check, and
@@ -87,10 +87,10 @@ window.addEventListener("load", function () {
 
                         Mit seinem Einsatz für stetiges Wachstum und der Überzeugung, dass jede Herausforderung eine
                         Chance ist, setzt Chris sein Handwerk leidenschaftlich ein, <span style="font-weight: bold;">um Geschichten zu erzählen, die
-                        wirklich von Bedeutung sind</span> – stets mit Staunen und dem Traum, durch visuelles Storytelling zu
+                        wirklich von Bedeutung sind</span> stets mit Staunen und dem Traum, durch visuelles Storytelling zu
                         inspirieren. </br></br>
 
-                        Neben all diesen Bestrebungen verfolgt Chris auch leidenschaftlich seinen Job als Vollzeit-Idiot.
+                        Neben all diesen Bestrebungen verfolgt Chris auch leidenschaftlich seinen Job als Vollzeit Idiot.
                         `: `
                         and unique perspective, shapes his work, where <span style="font-weight: bold;">every camera choice is
                         intentional, thoughtful, and driven</span> by a love for both the art and the philosophy behind
